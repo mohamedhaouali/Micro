@@ -1,0 +1,35 @@
+article_index:
+    path:     /
+    defaults: { _controller: "GestionProjetBundle:Article:index" }
+    methods:  GET
+
+article_show:
+    path:     /{id}/show
+    defaults: { _controller: "GestionProjetBundle:Article:show" }
+    methods:  GET
+
+article_new:
+    path:     /new
+    defaults: { _controller: "GestionProjetBundle:Article:new" }
+    methods:  [GET, POST]
+
+article_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "GestionProjetBundle:Article:edit" }
+    methods:  [GET, POST]
+
+article_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "GestionProjetBundle:Article:delete" }
+  
+
+article_modifier:
+    path:     /modifier
+    defaults: { _controller: "GestionProjetBundle:Article:modifier" }
+    
+
+article_recherche:
+    path:     /recherche
+    defaults: { _controller: "GestionProjetBundle:Article:recherche" }  
+    
+   

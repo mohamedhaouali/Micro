@@ -1,0 +1,60 @@
+{% extends "BackBundle::base.html.twig" %}
+
+{% block A %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Listes Des Articles</p>
+            <div class="list-group">
+                <a href="{{path('article_new')}}"class="list-group-item">Ajouter</a>
+                <a href="{{path('article_modifier')}}" class="list-group-item">Modifier</a>
+                <a href="{{path('article_index')}}" class="list-group-item">Afficher</a>
+                <a href="{{path('article_recherche')}}" class="list-group-item">Recherche</a>
+            
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <table class ="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Titre</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for article in articles %}
+                        <tr>
+                            
+                          
+                            <td><a href="{{ path('article_show', { 'id': article.id }) }}">{{ article.id }}</a></td>
+                            <td>{{ article.titre }}</td>
+                            <td>{{ article.description }}</td>
+                            
+                         
+                           
+                         
+                           
+                            
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="{{ path('article_edit', { 'id': article.id})}}" class="btn btn-info" ><span class="glyphicon glyphicon-edit"></span>   modifier</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('article_delete', { 'id': article.id})}}" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> supprimer</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+
+
+        </div>    
+    </div>
+{% endblock A %}  

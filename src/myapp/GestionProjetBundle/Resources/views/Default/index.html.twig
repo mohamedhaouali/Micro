@@ -1,0 +1,402 @@
+{% extends '::base.html.twig'%}
+
+{% block body %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+
+<html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <title>Micro Systeme</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   
+    </head>
+
+    <body>
+
+        <div id="home-page">
+
+            <!-- site-navigation start -->  
+          
+            <!-- site-navigation end -->
+
+
+            <!-- header start -->
+            <header id="header" class="header-wrapper home-parallax home-fade">
+                <div class="header-overlay"></div>
+                <div class="header-wrapper-inner">
+                    <div class="container">
+
+                        <div class="welcome-speech">
+                            <h1>Bienvenue au MicroSysteme Solutions</h1>
+                           
+                            <a href="{{path('about')}}" class="btn btn-primary">
+                           
+                            Nos Solutions
+                            </a>
+                        </div><!-- /.intro -->
+                      
+                    </div><!-- /.container -->
+
+                </div><!-- /.header-wrapper-inner -->
+            </header>
+ 
+            <!-- /#header -->
+
+            <div class="main-content">
+
+                <!--  begin intro section -->
+
+                <section class="intro bg-light-gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="{{asset('templates/images/intro.jpg')}}" class="img-responsive center-block" alt="intro">
+                            </div>
+
+                            <div class="col-md-7">
+                                <div class="intro-description">
+                                    <h2>Qui sommes-nous?</h2>
+                                    <p>
+                                        Microsysteme est une entreprise de conseil et services informatiques créé en 2005.
+                                     
+                                    </p>
+
+                                    <ul class="points">
+                                        <li>
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            Elle est spécialise dans la conception et le conception et le developpement de logiciels
+                                            ,de sites et d'application web sur mesure
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            Elle accompagne ses clients dans leur développement  grace a un suivi personnalisé.
+                                        </li>
+                                   
+                                      
+                                    </ul> <!-- end of /.points -->
+
+                                    <a href="{{path('service')}}" class="btn btn-primary">
+                                        services
+                                    </a> <!-- /purchase button -->
+                                </div> <!-- end of /.intro-description -->
+                            </div>
+                        </div>
+                    </div> <!-- end of /.container -->
+                </section> 
+                <!--  end of intro section -->
+
+
+                <!--  begin feature section  -->
+                <section class="bg-white feature">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="feature-content text-center">
+                                    <div class="feature-icon-box">
+                                        <div class="feature-icon center-block">
+                                            <i class="fa fa-laptop"></i>
+                                        </div>
+                                    </div> <!--  end of /.feature-icon-box  -->
+                                    <div class="feature-info">
+                                        <h3 class="feature-heading">Analyser ensemble vos besoins</h3>
+                                        
+                                    </div> <!--   end of /.feature-info  -->
+                                </div> <!--  end of /.feature-content  -->
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="feature-content text-center">
+                                    <div class="feature-icon-box">
+                                        <div class="feature-icon center-block">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div> <!--  end of /.feature-icon-box  -->
+                                    <div class="feature-info">
+                                        <h3 class="feature-heading">Vous assister pour la rédaction du cahier du charges </h3>
+                                        
+                                    </div> <!--   end of /.feature-info  -->
+                                </div> <!--  end of /.feature-content  -->
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="feature-content text-center">
+                                    <div class="feature-icon-box">
+                                        <div class="feature-icon center-block">
+                                            <i class="fa fa-thumbs-o-up"></i>
+                                        </div>
+                                    </div> <!--  end of /.feature-icon-box  -->
+                                    <div class="feature-info">
+                                        <h3 class="feature-heading">Vous informer et vous conseiller sur les solutions existantes</h3>
+                                       
+                                    </div> <!--   end of /.feature-info  -->
+                                </div> <!--  end of /.feature-content  -->
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="feature-content text-center">
+                                    <div class="feature-icon-box">
+                                        <div class="feature-icon center-block">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div> <!--  end of /.feature-icon-box  -->
+                                    <div class="feature-info">
+                                        <h3 class="feature-heading">Développer les applications répondant a vos besoins spécifiques</h3>
+                                        
+                                    </div> <!--   end of /.feature-info  -->
+                                    <br>
+                                       
+                                    
+                                    
+                                    
+                                </div> <!--  end of /.feature-content  -->
+                            </div>
+
+                            
+                                            <div class="col-md-3">
+                                <div class="feature-content text-center">
+                                    <div class="feature-icon-box">
+                                        <div class="feature-icon center-block">
+                                            <i class="glyphicon glyphicon-user"></i>
+                                        </div>
+                                    </div> <!--  end of /.feature-icon-box  -->
+                                    <div class="feature-info">
+                                        <h3 class="feature-heading">Assurer la formation et le suivi de vos équipes sur les solutions développées</h3>
+                                        
+                                    </div> <!--   end of /.feature-info  -->
+                                    <br>
+                                       
+                                    
+                                    
+                                    
+                                </div> <!--  end of /.feature-content  -->
+                            </div>
+                            
+                            
+                       
+                            
+                        </div>
+                    </div> <!-- end of /.container -->
+                </section>  
+                <!--   end of feature section  -->
+
+
+                <!--  begin portfolio section  -->
+               
+                <!--   end of portfolio section  -->
+
+
+                <!-- begin twitter-feed section -->
+                <section class="twit-feed">
+                    <div class="twit-feed-wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div id="twit" class="owl-carousel owl theme">
+
+                                        <div class="item text-center">
+                                            <div class="twit-content">
+                                                <div class="twit-icon">
+                                                    <i class="fa fa-twitter"></i>
+                                                </div>
+                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
+                                                <p>
+                                                    @themewagon <br/>
+                                                    2 days ago on Twitter.com
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item text-center">
+                                            <div class="twit-content">
+                                                <div class="twit-icon">
+                                                    <i class="fa fa-twitter"></i>
+                                                </div>
+                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
+                                                <p>
+                                                    @themewagon <br/>
+                                                    2 days ago on Twitter.com
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item text-center">
+                                            <div class="twit-content">
+                                                <div class="twit-icon">
+                                                    <i class="fa fa-twitter"></i>
+                                                </div>
+                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
+                                                <p>
+                                                    @themewagon <br/>
+                                                    2 days ago on Twitter.com
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!--   end of /.twit-feed section  -->
+
+
+
+                <!-- begin pricing section -->
+                
+                <!-- end of pricing section -->
+
+
+
+                <!--  begin testimonial section  -->
+
+         
+                <!--  end of testimonial  section -->
+                            
+            </div> <!-- end of /.main-content -->
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>Liens</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('acceuil')}}">Acceuil</a></li>
+                                    <li><a href="{{path('about')}}">About</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                </div>
+
+                              
+                            </ul>
+                        </div>
+
+                        <!-- recent news -->
+             
+
+                        <!-- news-letter -->
+                  
+
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>Micro Systeme </h4>
+
+                         
+
+                            <div class="footer-address">
+                                <p>
+                                    Adresse <br>
+                                    59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
+                        
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
+                    </div>
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
+                            <a href="#">
+                             @2018 All Rights Reserved. Designed by Micro Systeme
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                     
+                </div><!-- /.container -->
+            </nav>
+                                
+                </div>
+            </footer>
+
+
+            <!-- footer-navigation start -->  
+            
+            <!-- footer-navigation end -->
+            
+        </div> <!-- end of /#home-page -->
+
+        <!--  Necessary scripts  -->
+
+        
+
+  
+
+
+    </body>
+</html>
+
+{%endblock  %}

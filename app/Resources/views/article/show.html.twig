@@ -1,0 +1,59 @@
+{% extends "BackBundle::base.html.twig" %}
+
+
+{% block A %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Listes Des Articles</p>
+            <div class="list-group">
+                <a href="{{path('article_new')}}" class="list-group-item">Ajouter</a>
+                <a href="{{path('article_modifier')}}" class="list-group-item">Modifier</a>
+                <a href="{{path('article_index')}}" class="list-group-item">Afficher</a>
+                 <a href="{{path('article_recherche')}}" class="list-group-item">Recherche</a>
+              
+            </div>
+        </div>
+
+
+
+
+    <div class="col-md-9">
+    <h1>Article</h1>
+
+    <table class ="table table-striped" >
+        <tbody>
+            
+          
+            <tr>
+                <th>Id</th>
+                <td>{{ article.id }}</td>
+            </tr>
+            <tr>
+                <th>Titre</th>
+                <td>{{ article.titre }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ article.description }}</td>
+            </tr>
+         
+            
+             <img src="{{asset('uploads/'~article.path)}}" alt="">
+            
+            
+        </tbody>
+    </table>
+
+    <ul>
+                <li>
+                    {#{ form_start(delete_form) }}
+                    <input type="submit" value="Delete">
+                    {{ form_end(delete_form) }#}
+                </li>
+            </ul>
+
+        </div>    
+    </div>
+{% endblock A %}   
+

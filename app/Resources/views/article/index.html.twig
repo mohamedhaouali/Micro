@@ -1,0 +1,69 @@
+{% extends "BackBundle::base.html.twig" %}
+
+{% block A %}
+
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">  
+        
+    </head> 
+
+           
+ <div class="container">
+  <div class="row">   
+ <div class="animsition">           
+     <div>     
+        {% for article in articles %}
+        <article><br>
+            <br>
+<dl class="dl-vertical" >
+    
+    <br>
+    
+   
+           
+         
+           <dt><p class="text-left"><strong>{{ article.titre|upper }}</strong></p><br></dt>
+           
+          
+            <br>
+           
+           <p class="text-justify"><img src="{{asset('uploads/'~article.path)}}" alt=""><br></p>
+            <br> 
+            
+            
+            <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">{{ article.description }}</font></p> </dd>
+            
+       
+</dl>       
+           
+            
+        </article>
+            
+    
+            
+            
+            
+            
+        {% endfor %}
+     </div>
+     
+    <div class="navigation">
+    {{ knp_pagination_render(articles) }}
+</div> 
+    
+</div>
+  </div>
+ </div>     
+</div>   
+ 
+
+  
+
+   	
+    
+    
+    
+    
+ {%endblock  %} 
+               
+              

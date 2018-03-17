@@ -1,0 +1,245 @@
+{%  extends '::base.html.twig' %}
+{%  block body %}
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+    <form action="{{ path('myapplication_contact') }}" method="post"  class="blogger">
+        <div class="row">
+        <div class="col-md-1"></div>
+        <div class="section-header-text">
+            <br>
+					<h4>Contact<span>.</span></h4> 
+					<p>N'hésitez pas à nous contacter.</p> 
+					<div class="line-header"></div>
+				</div>
+        
+        <div class="col-md-5">
+            <div class="form-group">
+            <label for="nom" class="field prepend-icon">
+                <label for="nom" class="field-icon"> </label>
+                {{ form_label(form.nom) }}
+                {{ form_widget(form.nom, { 'attr': {'class': 'form-control', 'placeholder': 'Nom' } }) }}
+                {{ form_errors(form.nom) }}
+
+
+            </label>
+            <!-- end section -->
+        </div>
+            <div class="form-group">
+
+            <label for="email" class="field prepend-icon">
+                <label for="email" class="field-icon"></label>
+                {{ form_label(form.email) }} 
+                {{ form_widget(form.email, { 'attr': {'class': 'form-control', 'placeholder': 'Adresse mail' } }) }}
+                {{ form_errors(form.email) }}
+
+
+            </label>
+            <!-- end section -->
+        </div>
+        <!-- end .section row section -->
+
+            <div class="form-group">
+            <label for="objet" class="field prepend-icon">
+                <label for="objet" class="field-icon"> </label>
+                {{ form_label(form.objet) }}
+                {{ form_widget(form.objet, { 'attr': {'class': 'form-control', 'placeholder': 'Objet'|trans } }) }}
+                {{ form_errors(form.objet) }}
+
+            </label>
+        </div>
+        <!-- end section -->
+
+           
+                <div class="form-group">
+            <label for="sujet" class="field prepend-icon" >
+              
+                {{ form_label(form.sujet) }}
+                {{ form_widget(form.sujet, { 'attr': {'class': 'form-control','rows': '12', 'placeholder': 'ecrire votre message ici......'|trans } }) }}
+                {{ form_errors(form.sujet) }}
+            </label>
+                </div>
+            <div class="col-md-1"></div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center" style="margin-top: 40px;">
+        {{ form_rest(form) }}
+        <!-- end section -->
+            </div>
+        <div>
+
+            <button class="btn btn-info btn-large bold" type="submit" tabindex="5" id="submit"><i class="icon-envelope-alt"></i>Envoyer</button>
+        </div></div>
+    </form>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.6059658111553!2d10.220578715288635!3d36.756028079957574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd366439948a3f%3A0xa8ca5415dce619ae!2sMicrosystem+Solutions!5e0!3m2!1sfr!2stn!4v1516546210554" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          
+            </div>
+        </div>
+    </div>
+            </div>
+
+<section class="section white-background padding-bottom hidden-sec">
+		<div class="container">
+			<div class="one-third column">
+				<div class="contact-details">
+					<p><span>&#xf1d8;</span> Email:</p> 
+					<h5>microsysteme@gnet.tn</h5>
+				</div>
+			</div>
+			<div class="one-third column">
+				<div class="contact-details">
+					<p><span>&#xf095;</span> Tel:</p>
+					<h5>(+216) 79 391 087 
+                                        (+216) 79 391 088</h5>
+				</div>
+			</div>
+			<div class="one-third column">
+				<div class="contact-details">
+					<p><span>&#xf041;</span> Adresse:</p>
+                                        <h5> 59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous <br> 
+                                    
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+  <footer>
+                <div class="container">
+                    <div class="row">
+
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>Liens</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('acceuil')}}">Acceuil</a></li>
+                                    <li><a href="{{path('about')}}">About</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                </div>
+
+                              
+                            </ul>
+                        </div>
+
+                        <!-- recent news -->
+             
+
+                        <!-- news-letter -->
+                  
+
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>Micro Systeme </h4>
+
+                         
+
+                            <div class="footer-address">
+                                <p>
+                                    Adresse <br>
+                                    59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
+                        
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
+                    </div>
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
+                            <a href="#">
+                             @2018 All Rights Reserved. Designed by Micro Systeme
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                     
+                </div><!-- /.container -->
+            </nav>
+                                
+                </div>
+            </footer>
+
+            <!-- footer-navigation end -->
+            
+        </div> <!-- end of /#home-page -->
+
+        <!--  Necessary scripts  -->
+
+        
+
+  
+
+
+ 
+
+
+     
+
+    </body>
+</html>
+
+{%  endblock %}
+
+

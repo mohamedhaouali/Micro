@@ -1,0 +1,84 @@
+{% extends '::base.html.twig'%}
+
+{% block body %}
+
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">  
+        
+    </head> 
+        
+ <div class="container">
+  <div class="row">   
+ <div class="animsition"> 
+     <br>
+             <form method="POST">
+            
+            titre <input type="text" name="titre">
+            
+            <input type="submit" name="sumbit" class="btn btn-info" value="recherche">
+            
+            
+            
+        </form> 
+     <div>     
+        {% for article in articles %}
+        <article><br>
+            <br>
+<dl class="dl-vertical" >
+    
+    <br>
+    
+   
+           
+         
+           <dt><p class="text-left"><strong>{{ article.titre|upper }}</strong></p><br></dt>
+           
+          
+            <br>
+           
+           <p class="text-justify"><img src="{{asset('uploads/'~article.path)}}" alt=""><br></p>
+            <br> 
+            
+            
+            <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">{{ article.description }}</font></p> </dd>
+            
+       
+</dl>       
+           
+            
+        </article>
+            
+    
+            
+            
+            
+            
+        {% endfor %}
+     </div>
+     
+  
+    
+</div>
+  </div>
+ </div>     
+</div>   
+ 
+
+  
+
+   	
+    
+    
+    
+    
+ {%endblock  %} 
+               
+     
+
+
+
+
+         
+         
+         
+         

@@ -1,0 +1,59 @@
+gestion_projet_article:
+    resource: "@GestionProjetBundle/Resources/config/routing/article.yml"
+    prefix:   /article
+
+gestion_projet_homepage:
+    path:     /
+    defaults: { _controller: GestionProjetBundle:Default:index }
+    
+     
+layout:
+    path:     /layout
+    defaults: { _controller: GestionProjetBundle:Default:layout }  
+    
+acceuil:
+    path:     /acceuil
+    defaults: { _controller: GestionProjetBundle:Default:acceuil }    
+    
+about:
+    path:     /about
+    defaults: { _controller: GestionProjetBundle:Default:about} 
+    
+service:
+    path:     /service
+    defaults: { _controller: GestionProjetBundle:Default:service}    
+    
+    
+MS-Compta :
+    path:     /compta
+    defaults: { _controller: GestionProjetBundle:Default:compta}  
+    
+MS-Achat:
+    path:     /achat
+    defaults: { _controller: GestionProjetBundle:Default:achat} 
+    
+MS-Budget:
+    path:     /budget
+    defaults: { _controller: GestionProjetBundle:Default:budget}      
+    
+GestionComptable:
+    path:     /comptable1
+    defaults: { _controller: GestionProjetBundle:Default:GestionComptable} 
+    
+MS-RH:
+    path:     /rh
+    defaults: { _controller: GestionProjetBundle:Default:rh}  
+    
+MS-VE:
+    path:     /ve
+    defaults: { _controller: GestionProjetBundle:Default:ve}  
+    
+MS-Cars:
+    path:     /car
+    defaults: { _controller: GestionProjetBundle:Default:car}     
+    
+    
+    
+myapplication_contact:
+    path:     /contact
+    defaults: { _controller: GestionProjetBundle:Default:contact }      

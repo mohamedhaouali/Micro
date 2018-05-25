@@ -25,7 +25,7 @@ service:
     
     
 MS-Compta :
-    path:     /compta
+    path:     /comptoir
     defaults: { _controller: GestionProjetBundle:Default:compta}  
     
 MS-Achat:
@@ -37,7 +37,7 @@ MS-Budget:
     defaults: { _controller: GestionProjetBundle:Default:budget}      
     
 GestionComptable:
-    path:     /comptable1
+    path:     /gestioncomptable
     defaults: { _controller: GestionProjetBundle:Default:GestionComptable} 
     
 MS-RH:
@@ -45,13 +45,12 @@ MS-RH:
     defaults: { _controller: GestionProjetBundle:Default:rh}  
     
 MS-VE:
-    path:     /ve
+    path:     /vente
     defaults: { _controller: GestionProjetBundle:Default:ve}  
     
 MS-Cars:
     path:     /car
     defaults: { _controller: GestionProjetBundle:Default:car}     
-    
     
     
 myapplication_contact:

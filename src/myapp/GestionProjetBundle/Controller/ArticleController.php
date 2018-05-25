@@ -3,7 +3,7 @@
 namespace myapp\GestionProjetBundle\Controller;
 
 use myapp\GestionProjetBundle\Entity\Article;
-use Myapp\GestionProjetBundle\Form\ArticleType;
+use myapp\GestionProjetBundle\Form\ArticleType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
@@ -38,7 +38,7 @@ class ArticleController extends Controller
             'articles' => $articles,'articles' => $pagination
         ));
     }
-public function modifierAction() {
+        public function modifierAction() {
         $em = $this->getDoctrine()->getManager();
 
         $articles = $em->getRepository('GestionProjetBundle:Article')->findAll();

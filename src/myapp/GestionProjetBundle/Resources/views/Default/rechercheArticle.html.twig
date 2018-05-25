@@ -3,82 +3,190 @@
 {% block body %}
 
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">  
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+
     </head> 
-        
- <div class="container">
-  <div class="row">   
- <div class="animsition"> 
-     <br>
-             <form method="POST">
-            
-            titre <input type="text" name="titre">
-            
-            <input type="submit" name="sumbit" class="btn btn-info" value="recherche">
-            
-            
-            
-        </form> 
-     <div>     
-        {% for article in articles %}
-        <article><br>
-            <br>
-<dl class="dl-vertical" >
-    
-    <br>
-    
-   
-           
-         
-           <dt><p class="text-left"><strong>{{ article.titre|upper }}</strong></p><br></dt>
-           
-          
-            <br>
-           
-           <p class="text-justify"><img src="{{asset('uploads/'~article.path)}}" alt=""><br></p>
-            <br> 
-            
-            
-            <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">{{ article.description }}</font></p> </dd>
-            
-       
-</dl>       
-           
-            
-        </article>
-            
-    
-            
-            
-            
-            
-        {% endfor %}
-     </div>
-     
-  
-    
-</div>
-  </div>
- </div>     
+
+    <div class="container">
+        <div class="row">   
+            <div class="animsition"> 
+                <br>
+                <form method="POST">
+
+                    titre <input type="text" name="titre">
+
+                    <input type="submit" name="sumbit" class="btn btn-info" value="recherche">
+
+
+
+                </form> 
+                <div>     
+                    {% for article in articles %}
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+
+                                <dt><p class="text-left"><strong>{{ article.titre|upper }}</strong></p><br></dt>
+
+
+                                <br>
+
+                                <p class="text-justify"><img src="{{asset('uploads/'~article.path)}}" alt=""><br></p>
+                                <br> 
+
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">{{ article.description }}</font></p> </dd>
+
+
+                            </dl>       
+
+
+                        </article>
+
+
+
+
+
+
+                    {% endfor %}
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>     
 </div>   
- 
-
-  
-
-   	
-    
-    
-    
-    
- {%endblock  %} 
-               
-     
 
 
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <!-- useful links -->
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                <h4>Liens</h4>
+                <ul class="row footer-links">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <li><a href="{{path('acceuil')}}">Acceuil</a></li>
+                        <li><a href="{{path('about')}}">About</a></li>
+                        <li><a href="{{path('service')}}">Service</a></li>
+                        <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
+                        <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                    </div>
 
 
-         
-         
-         
-         
+                </ul>
+            </div>
+
+            <!-- recent news -->
+
+
+            <!-- news-letter -->
+
+
+            <!-- about avada agency -->
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                <h4>MicroSystem Solutions </h4>
+
+
+
+                <div class="footer-address">
+                    <p>
+                        Adresse <br>
+                        59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
+                        <br>
+
+
+
+                </div>
+
+
+            </div> <!-- /.footer-widget -->
+
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                <div class="footer-address">
+
+                    <p> Email <br>
+                        microsysteme@gnet.tn
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                <div class="footer-address">
+
+
+                    <p> Tél 
+                        <br>  
+                        (+216) 79 391 087 <br>
+                        (+216) 79 391 088 
+                    </p>
+                    <p>   Fax
+
+                        +216 79 391 056
+
+
+                    </p>
+
+                </div>
+
+
+            </div> 
+
+
+        </div>
+
+        <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <!-- navbar logo -->
+                    <div class="navbar-brand">
+
+                        <a href="#">
+                            @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                        </a>
+                    </div>
+                    <!-- navbar logo -->
+
+                </div><!-- /.navbar-header -->
+
+                <!-- nav links -->
+
+            </div><!-- /.container -->
+        </nav>
+
+    </div>
+</footer>
+
+
+
+{%endblock  %} 
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,3 @@
-{% extends '::base.html.twig'%}
-
-{% block body %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -10,364 +7,55 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <title>Micro Systeme</title>
+        <title>MicroSystem Solutions</title>
 
         <!-- meta -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-   
-    </head>
+        
+        <!-- stylesheets -->
+        {% block stylesheets %}
+        <link  href="{{asset('templates/css/bootstrap1.min.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/css/font-awesome.min.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/css/animate.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/css/owl.carousel.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/css/owl.theme.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/css/style.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/css/nivo-lightbox/nivo-lightbox.css')}}" rel="stylesheet">
+        <link  href="{{asset('templates/nivo-lightbox/nivo-lightbox-theme.css')}}" rel="stylesheet">
+        <link  href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 
+              {% endblock %}
+              
+        <!-- scripts -->
+        
+
+    </head>
+{% block content %}
     <body>
 
         <div id="home-page">
 
             <!-- site-navigation start -->  
-          
-            <!-- site-navigation end -->
-
-
-            <!-- header start -->
-            <header id="header" class="header-wrapper home-parallax home-fade">
-                <div class="header-overlay"></div>
-                <div class="header-wrapper-inner">
-                    <div class="container">
-
-                        <div class="welcome-speech">
-                            <h1>Bienvenue au MicroSysteme Solutions</h1>
-                           
-                            <a href="{{path('about')}}" class="btn btn-primary">
-                           
-                            Nos Solutions
-                            </a>
-                        </div><!-- /.intro -->
-                      
-                    </div><!-- /.container -->
-
-                </div><!-- /.header-wrapper-inner -->
-            </header>
- 
-            <!-- /#header -->
-
-            <div class="main-content">
-
-                <!--  begin intro section -->
-
-                <section class="intro bg-light-gray">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img src="{{asset('templates/images/intro.jpg')}}" class="img-responsive center-block" alt="intro">
-                            </div>
-
-                            <div class="col-md-7">
-                                <div class="intro-description">
-                                    <h2>Qui sommes-nous?</h2>
-                                    <p>
-                                        Microsysteme est une entreprise de conseil et services informatiques créé en 2005.
-                                     
-                                    </p>
-
-                                    <ul class="points">
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            Elle est spécialise dans la conception et le conception et le developpement de logiciels
-                                            ,de sites et d'application web sur mesure
-                                        </li>
-                                        <li>
-                                            <span>
-                                                <i class="fa fa-star"></i>
-                                            </span>
-                                            Elle accompagne ses clients dans leur développement  grace a un suivi personnalisé.
-                                        </li>
-                                   
-                                      
-                                    </ul> <!-- end of /.points -->
-
-                                    <a href="{{path('service')}}" class="btn btn-primary">
-                                        services
-                                    </a> <!-- /purchase button -->
-                                </div> <!-- end of /.intro-description -->
-                            </div>
-                        </div>
-                    </div> <!-- end of /.container -->
-                </section> 
-                <!--  end of intro section -->
-
-
-                <!--  begin feature section  -->
-                <section class="bg-white feature">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-3">
-                                <div class="feature-content text-center">
-                                    <div class="feature-icon-box">
-                                        <div class="feature-icon center-block">
-                                            <i class="fa fa-laptop"></i>
-                                        </div>
-                                    </div> <!--  end of /.feature-icon-box  -->
-                                    <div class="feature-info">
-                                        <h3 class="feature-heading">Analyser ensemble vos besoins</h3>
-                                        
-                                    </div> <!--   end of /.feature-info  -->
-                                </div> <!--  end of /.feature-content  -->
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="feature-content text-center">
-                                    <div class="feature-icon-box">
-                                        <div class="feature-icon center-block">
-                                            <i class="fa fa-eye"></i>
-                                        </div>
-                                    </div> <!--  end of /.feature-icon-box  -->
-                                    <div class="feature-info">
-                                        <h3 class="feature-heading">Vous assister pour la rédaction du cahier du charges </h3>
-                                        
-                                    </div> <!--   end of /.feature-info  -->
-                                </div> <!--  end of /.feature-content  -->
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="feature-content text-center">
-                                    <div class="feature-icon-box">
-                                        <div class="feature-icon center-block">
-                                            <i class="fa fa-thumbs-o-up"></i>
-                                        </div>
-                                    </div> <!--  end of /.feature-icon-box  -->
-                                    <div class="feature-info">
-                                        <h3 class="feature-heading">Vous informer et vous conseiller sur les solutions existantes</h3>
-                                       
-                                    </div> <!--   end of /.feature-info  -->
-                                </div> <!--  end of /.feature-content  -->
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="feature-content text-center">
-                                    <div class="feature-icon-box">
-                                        <div class="feature-icon center-block">
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                    </div> <!--  end of /.feature-icon-box  -->
-                                    <div class="feature-info">
-                                        <h3 class="feature-heading">Développer les applications répondant a vos besoins spécifiques</h3>
-                                        
-                                    </div> <!--   end of /.feature-info  -->
-                                    <br>
-                                       
-                                    
-                                    
-                                    
-                                </div> <!--  end of /.feature-content  -->
-                            </div>
-
-                            
-                                            <div class="col-md-3">
-                                <div class="feature-content text-center">
-                                    <div class="feature-icon-box">
-                                        <div class="feature-icon center-block">
-                                            <i class="glyphicon glyphicon-user"></i>
-                                        </div>
-                                    </div> <!--  end of /.feature-icon-box  -->
-                                    <div class="feature-info">
-                                        <h3 class="feature-heading">Assurer la formation et le suivi de vos équipes sur les solutions développées</h3>
-                                        
-                                    </div> <!--   end of /.feature-info  -->
-                                    <br>
-                                       
-                                    
-                                    
-                                    
-                                </div> <!--  end of /.feature-content  -->
-                            </div>
-                            
-                            
-                       
-                            
-                        </div>
-                    </div> <!-- end of /.container -->
-                </section>  
-                <!--   end of feature section  -->
-
-
-                <!--  begin portfolio section  -->
-               
-                <!--   end of portfolio section  -->
-
-
-                <!-- begin twitter-feed section -->
-                <section class="twit-feed">
-                    <div class="twit-feed-wrapper">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <div id="twit" class="owl-carousel owl theme">
-
-                                        <div class="item text-center">
-                                            <div class="twit-content">
-                                                <div class="twit-icon">
-                                                    <i class="fa fa-twitter"></i>
-                                                </div>
-                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
-                                                <p>
-                                                    @themewagon <br/>
-                                                    2 days ago on Twitter.com
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item text-center">
-                                            <div class="twit-content">
-                                                <div class="twit-icon">
-                                                    <i class="fa fa-twitter"></i>
-                                                </div>
-                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
-                                                <p>
-                                                    @themewagon <br/>
-                                                    2 days ago on Twitter.com
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item text-center">
-                                            <div class="twit-content">
-                                                <div class="twit-icon">
-                                                    <i class="fa fa-twitter"></i>
-                                                </div>
-                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
-                                                <p>
-                                                    @themewagon <br/>
-                                                    2 days ago on Twitter.com
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> <!--   end of /.twit-feed section  -->
-
-
-
-                <!-- begin pricing section -->
-                
-                <!-- end of pricing section -->
-
-
-
-                <!--  begin testimonial section  -->
-
-         
-                <!--  end of testimonial  section -->
-                            
-            </div> <!-- end of /.main-content -->
-
-            <footer>
+            <nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
                 <div class="container">
-                    <div class="row">
-
-                        <!-- useful links -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Liens</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('acceuil')}}">Acceuil</a></li>
-                                    <li><a href="{{path('about')}}">About</a></li>
-                                    <li><a href="{{path('service')}}">Service</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
-                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
-                                </div>
-
-                              
-                            </ul>
-                        </div>
-
-                        <!-- recent news -->
-             
-
-                        <!-- news-letter -->
-                  
-
-                        <!-- about avada agency -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Micro Systeme </h4>
-
-                         
-
-                            <div class="footer-address">
-                                <p>
-                                    Adresse <br>
-                                    59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
-                                    <br>
-                             
-                           
-                                
-                            </div>
-                          
-                       
-                        </div> <!-- /.footer-widget -->
-                         
-                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
-
-                         
-
-                            <div class="footer-address">
-                              
-                                <p> Email <br>
-                                    microsysteme@gnet.tn
-                                </p>
-                            
-                                
-                            </div>
-                          
-                       
-                        </div>
-                        
-                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
-
-                         
-
-                            <div class="footer-address">
-                              
-                               
-                                <p> Tél 
-                                    <br>  
-                                    (+216) 79 391 087 <br>
-                                    (+216) 79 391 088 
-                                </p>
-                                <p>   Fax
-                                    
-                                    +216 79 391 056
-                                    
-                             
-                                </p>
-                                
-                            </div>
-                          
-                       
-                        </div> 
-                        
-                        
-                    </div>
                     
-                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                       <div class="container">
-                    
-                        <div class="navbar-header">
+                    <div class="navbar-header">
                         
-                            <!-- navbar logo -->
-                            <div class="navbar-brand">
-                           
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <!-- navbar logo -->
+                        <div class="navbar-brand">
+                            <span class="sr-only">MicroSystem Solutions</span>
                             <a href="#">
-                             @2018 All Rights Reserved. Designed by Micro Systeme
+                                <img src="{{asset('templates/images/logo.png')}}" class="img-responsive center-block" alt="logo">
                             </a>
                         </div>
                         <!-- navbar logo -->
@@ -375,28 +63,229 @@
                     </div><!-- /.navbar-header -->
 
                     <!-- nav links -->
-                     
+                    <div class="collapse navbar-collapse" id="main-nav-collapse">
+                        <ul class="nav navbar-nav navbar-right text-uppercase">
+                            <li>
+                                <a href="{{path('acceuil')}}"><span>Acceuil</span></a>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>A propos</span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="{{path('about')}}">about</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{path('service')}}">service</a>
+                                    </li>
+                                    
+                                   
+                                  
+                                </ul>  <!-- end of /.dropdown-menu -->
+                            </li> <!-- end of /.dropdown -->
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Nos produits</span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="{{path('MS-Compta')}}">MS-Compta </a>
+                                    </li>
+                                  
+                                      <li>
+                                        <a href="{{path('MS-Achat')}}">MS-Achat</a>
+                                    </li>
+                                      <li>
+                                        <a href="{{path('MS-Budget')}}">MS-Budget</a>
+                                    </li>
+                                      <li>
+                                        <a href="{{path('GestionComptable')}}">Gestion Comptable </a>
+                                    </li>
+                                       <li>
+                                        <a href="{{path('MS-RH')}}">MS-RH</a>
+                                    </li>
+                                    
+                                      <li>
+                                        <a href="{{path('MS-VE')}}">MS-VE</a>
+                                    </li>
+                                     <li>
+                                        <a href="{{path('MS-Cars')}}">MS-Cars</a>
+                                    </li>
+                                  
+                                </ul> <!-- end of /.dropdown-menu -->
+                            </li> <!-- end of /.dropdown -->
+
+                            <li>
+                                <a href="{{path('myapplication_contact')}}"><span>contact</span></a>
+                            </li>
+                        </ul>
+                    </div><!-- nav links -->
+                    
                 </div><!-- /.container -->
             </nav>
-                                
-                </div>
-            </footer>
+            <!-- site-navigation end -->
 
 
-            <!-- footer-navigation start -->  
+          
+
+       
+
             
-            <!-- footer-navigation end -->
-            
-        </div> <!-- end of /#home-page -->
 
-        <!--  Necessary scripts  -->
 
         
+            
+        </div> <!-- end of /#home-page -->
+        
+        
+        <!-- Primary Page Layout
+	================================================== -->
 
+	{% block body %}{%endblock  %}
+        
+        
+        
+        
+        
+
+        <!--  Necessary scripts  -->
+	
+	<!-- JAVASCRIPT
+    ================================================== -->
+   {% block javascripts %}
+       <script type="text/javascript" src="{{asset('templates/js/modernizr.custom.97074.js')}}"></script>
+        <script type="text/javascript" src="{{asset('templates/js/jquery-2.1.3.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('templates/js/bootstrap.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('templates/js/owl.carousel.js')}}"></script>
+        <script type="text/javascript" src="{{asset('templates/js/jquery.hoverdir.js')}}"></script>
+        <script type="text/javascript" src="{{asset('templates/js/script.js')}}"></script>
+        <script type="text/javascript" src="{{asset('templates/js/nivo-lightbox/nivo-lightbox.min.js')}}"></script>
+        <link rel="stylesheet"  href="{{ asset('assets/vendor/bootstrap/dist/css/bootstrap.min.css') }}" />
+         <script src="{{ asset('js/jquery.min.js') }}"></script>
+         <script src="{{ asset('js/bootstrap.js') }}"></script>
+
+
+        <!-- script for image zoom using nivo lightbox (galerry)-->
+        <script>
+            $(document).ready(function(){
+                $('.item-zoom').nivoLightbox();
+            });
+        </script>
+        
+        
+        
+        
+       
   
+        <!-- script for portfolio section using hoverdirection -->
+        <script type="text/javascript">
+            $(function() {
+
+                $('.portfolio-item > .item-image').each( function() { $(this).hoverdir({
+                    hoverDelay : 75
+                }); } );
+
+            });
+        </script>
 
 
+        <!-- script for twitter-feed using owl carousel-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#twit").owlCarousel({
+                 
+                    navigation : true, // Show next and prev buttons
+                    slideSpeed : 100,
+                    paginationSpeed : 400,
+                    navigationText : false,
+                    singleItem: true,
+                    autoPlay: true,
+                    pagination: false
+                });
+ 
+            });
+        </script>
+        
+
+        
+        <!-- script for testimonial section using owl carousel -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#client-speech").owlCarousel({
+                 
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    singleItem:true
+                });
+ 
+            });
+        </script>
+        
+                <!-- script for sponsor using owl carousel -->
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#sponsor-list").owlCarousel({
+                 
+                    autoPlay: 3000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    items : 4,
+                    itemsDesktop: [1200,4],
+                    itemsDesktopSmall: [991,3],
+                    itemsTablet: [767,2],
+                    itemsTabletSmall: [625,2],
+                    itemsMobile: [479,1]
+                });
+ 
+            });
+        </script>
+        
+            <!-- script for testimonial du page service.html-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+ 
+                $("#client-speech").owlCarousel({
+                 
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    singleItem:true
+                });
+ 
+            });
+        </script> 
+
+        
+           <!-- script for FAQ using jquery blog.html -->
+        
+        <script>
+            $(".faq-q").click( function () {
+              var container = $(this).parents(".faq-c");
+              var answer = container.find(".faq-a");
+              var trigger = container.find(".faq-t");
+              
+              answer.slideToggle(200);
+              
+              if (trigger.hasClass("faq-o")) {
+                trigger.removeClass("faq-o");
+              }
+              else {
+                trigger.addClass("faq-o");
+              }
+            });
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+{% endblock %}
     </body>
+    {%endblock content %}
 </html>
-
-{%endblock  %}

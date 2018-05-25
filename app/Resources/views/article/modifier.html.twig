@@ -10,7 +10,7 @@
                 <a href="{{path('article_modifier')}}" class="list-group-item">Modifier</a>
                 <a href="{{path('article_index')}}" class="list-group-item">Afficher</a>
                 <a href="{{path('article_recherche')}}" class="list-group-item">Recherche</a>
-            
+
             </div>
         </div>
 
@@ -27,17 +27,17 @@
                 <tbody>
                     {% for article in articles %}
                         <tr>
-                            
-                          
+
+
                             <td><a href="{{ path('article_show', { 'id': article.id }) }}">{{ article.id }}</a></td>
                             <td>{{ article.titre }}</td>
                             <td>{{ article.description }}</td>
-                            
-                         
-                           
-                         
-                           
-                            
+
+
+
+
+
+
                             <td>
                                 <ul>
                                     <li>

@@ -8,10 +8,8 @@ gestion_projet:
 
 article:
     resource: "@GestionProjetBundle/Resources/config/routing/article.yml"
-    prefix:   /article
+    prefix:   /admin/article
 
 
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+
     

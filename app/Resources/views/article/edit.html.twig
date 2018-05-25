@@ -10,24 +10,24 @@
                 <a href="{{path('article_index')}}" class="list-group-item">Ajouter</a>
                 <a href="{{path('article_modifier')}}" class="list-group-item">Modifier</a>
                 <a href="{{path('article_index')}}" class="list-group-item">Afficher</a>
-                 <a href="{{path('article_recherche')}}" class="list-group-item">Recherche</a>
-               
+                <a href="{{path('article_recherche')}}" class="list-group-item">Recherche</a>
+
             </div>
         </div>
 
         <div class="col-md-9">
-    
-    
-    
-    
-    <h1>Article edit</h1>
 
-    {{ form_start(edit_form) }}
-    {{ form_widget(edit_form) }}
-        <input type="submit" class="btn btn-info" value="Modifier" />
-    {{ form_end(edit_form) }}
 
-    <ul>
+
+
+            <h1>Article edit</h1>
+
+            {{ form_start(edit_form) }}
+            {{ form_widget(edit_form) }}
+            <input type="submit" class="btn btn-info" value="Modifier" />
+            {{ form_end(edit_form) }}
+
+            <ul>
                 <li>
                     <a href="{{ path('article_index') }}">Back to the list</a>
                 </li>

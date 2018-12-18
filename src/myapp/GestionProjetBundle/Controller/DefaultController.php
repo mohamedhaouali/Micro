@@ -67,6 +67,11 @@ class DefaultController extends Controller
         return $this->render('GestionProjetBundle:templates:car.html.twig');
     }
     
+                  public function harasAction()
+    {
+        return $this->render('GestionProjetBundle:templates:haras.html.twig');
+    }
+    
     public function contactAction(Request $request)
     {
         $contact = new Contact();

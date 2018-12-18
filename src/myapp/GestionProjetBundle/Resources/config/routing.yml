@@ -50,7 +50,11 @@ MS-VE:
     
 MS-Cars:
     path:     /car
-    defaults: { _controller: GestionProjetBundle:Default:car}     
+    defaults: { _controller: GestionProjetBundle:Default:car} 
+    
+MS-Haras:
+    path:     /haras
+    defaults: { _controller: GestionProjetBundle:Default:haras}     
     
     
 myapplication_contact:

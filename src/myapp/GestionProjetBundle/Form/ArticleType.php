@@ -18,7 +18,8 @@ class ArticleType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('titre',TextType::class,array('required'=>true, 'attr'=> array('placeholder'=>'Titre  Article')))
-               ->add('description',TextareaType::class,array('required'=>true, 'attr'=> array('placeholder'=>'Description')))
+              ->add('description',TextareaType::class,array('required'=>true, 'attr'=> array('placeholder'=>'Description')))
+             // ->add('description',null, array('attr' => array('class' => 'ckeditor')))  
                ->add('file',FileType::class);
         
     }

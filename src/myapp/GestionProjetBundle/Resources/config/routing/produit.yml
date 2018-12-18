@@ -1,0 +1,33 @@
+produit_index:
+    path:     /
+    defaults: { _controller: "GestionProjetBundle:Produit:index" }
+    methods:  GET
+
+produit_show:
+    path:     /{id}/show
+    defaults: { _controller: "GestionProjetBundle:Produit:show" }
+    methods:  GET
+
+produit_new:
+    path:     /new
+    defaults: { _controller: "GestionProjetBundle:Produit:new" }
+    methods:  [GET, POST]
+
+produit_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "GestionProjetBundle:Produit:edit" }
+    methods:  [GET, POST]
+
+produit_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "GestionProjetBundle:Produit:delete" }
+    methods:  DELETE
+
+produit_modifier:
+    path:     /modifier
+    defaults: { _controller: "GestionProjetBundle:Produit:modifier" }
+    
+
+produit_recherche:
+    path:     /recherche
+    defaults: { _controller: "GestionProjetBundle:Produit:recherche" }  

@@ -19,10 +19,48 @@
 
    
     </head>
-
+    <br>
+    <br>
+    <br>
+    
+    
     <body>
 
         <div id="home-page">
+            
+            <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="{{asset('templates/images/blog-item1.jpg')}}" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="{{asset('templates/images/blog-item2.jpg')}}" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="{{asset('templates/images/blog-item4.jpg')}}" alt="">
+                                </div>
+
+                        
+
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
 
             <!-- site-navigation start -->  
           
@@ -30,24 +68,7 @@
 
 
             <!-- header start -->
-            <header id="header" class="header-wrapper home-parallax home-fade">
-                <div class="header-overlay"></div>
-                <div class="header-wrapper-inner">
-                    <div class="container">
-
-                        <div class="welcome-speech">
-                            <h1>Bienvenue au MicroSystem Solutions</h1>
-                           
-                            <a href="{{path('about')}}" class="btn btn-primary">
-                           
-                            Nos Solutions
-                            </a>
-                        </div><!-- /.intro -->
-                      
-                    </div><!-- /.container -->
-
-                </div><!-- /.header-wrapper-inner -->
-            </header>
+   
  
             <!-- /#header -->
 
@@ -55,18 +76,18 @@
 
                 <!--  begin intro section -->
 
-                <section class="intro bg-light-gray">
+                <section class="intro bg-light-white">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5">
                                 <img src="{{asset('templates/images/intro.jpg')}}" class="img-responsive center-block" alt="intro">
                             </div>
-
+    
                             <div class="col-md-7">
                                 <div class="intro-description">
                                     <h2>Qui sommes-nous?</h2>
                                     <p>
-                                        Microsystem Solutions est une entreprise de conseil et services informatiques créé en 2005.
+                                        MicroSystem Solutions est une entreprise de conseil et services informatiques créé en 2005.
                                      
                                     </p>
 
@@ -75,7 +96,7 @@
                                             <span>
                                                 <i class="fa fa-star"></i>
                                             </span>
-                                            Elle est spécialise dans la conception  et le developpement de logiciels
+                                            Elle est spécialise dans la conception et le developpement de logiciels
                                             ,de sites et d'application web sur mesure
                                         </li>
                                         <li>
@@ -87,7 +108,12 @@
                                    
                                       
                                     </ul> <!-- end of /.points -->
-
+                                    
+                                              <a href="{{path('about')}}" class="btn btn-info">
+                           
+                                             Nos Solutions
+                                            </a> 
+                                              
                                     <a href="{{path('service')}}" class="btn btn-primary">
                                         services
                                     </a> <!-- /purchase button -->
@@ -98,7 +124,7 @@
                 </section> 
                 <!--  end of intro section -->
 
-
+  
                 <!--  begin feature section  -->
                 <section class="bg-white feature">
                     <div class="container">
@@ -200,58 +226,7 @@
 
 
                 <!-- begin twitter-feed section -->
-                <section class="twit-feed">
-                    <div class="twit-feed-wrapper">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <div id="twit" class="owl-carousel owl theme">
-
-                                        <div class="item text-center">
-                                            <div class="twit-content">
-                                                <div class="twit-icon">
-                                                    <i class="fa fa-twitter"></i>
-                                                </div>
-                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
-                                                <p>
-                                                    @themewagon <br/>
-                                                    2 days ago on Twitter.com
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item text-center">
-                                            <div class="twit-content">
-                                                <div class="twit-icon">
-                                                    <i class="fa fa-twitter"></i>
-                                                </div>
-                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
-                                                <p>
-                                                    @themewagon <br/>
-                                                    2 days ago on Twitter.com
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item text-center">
-                                            <div class="twit-content">
-                                                <div class="twit-icon">
-                                                    <i class="fa fa-twitter"></i>
-                                                </div>
-                                                <h3 class="text-capitalize">free stock photos: 74 best sites to find Awesome free images</h3>
-                                                <p>
-                                                    @themewagon <br/>
-                                                    2 days ago on Twitter.com
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> <!--   end of /.twit-feed section  -->
+              
 
 
 
@@ -281,12 +256,32 @@
                                     <li><a href="{{path('about')}}">About</a></li>
                                     <li><a href="{{path('service')}}">Service</a></li>
                                     <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
                                     <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
                                 </div>
 
                               
                             </ul>
                         </div>
+                                
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>Logiciel Erp</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
+                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                    <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
+                                    <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                </div>
+
+                              
+                            </ul>
+                        </div>        
+                                
 
                         <!-- recent news -->
              

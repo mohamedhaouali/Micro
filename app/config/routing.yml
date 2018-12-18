@@ -9,6 +9,10 @@ gestion_projet:
 article:
     resource: "@GestionProjetBundle/Resources/config/routing/article.yml"
     prefix:   /admin/article
+    
+produit:
+    resource: "@GestionProjetBundle/Resources/config/routing/produit.yml"
+    prefix:   /admin/produit    
 
 
 

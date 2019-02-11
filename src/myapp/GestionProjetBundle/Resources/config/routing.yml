@@ -3,60 +3,96 @@ gestion_projet_article:
     prefix:   /article
 
 gestion_projet_homepage:
-    path:     /
+    path:     /{_locale}
     defaults: { _controller: GestionProjetBundle:Default:index }
-    
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
      
 layout:
     path:     /layout
     defaults: { _controller: GestionProjetBundle:Default:layout }  
     
 acceuil:
-    path:     /acceuil
-    defaults: { _controller: GestionProjetBundle:Default:acceuil }    
+    path:     /{_locale}/acceuil
+    defaults: { _controller: GestionProjetBundle:Default:acceuil } 
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 about:
-    path:     /about
-    defaults: { _controller: GestionProjetBundle:Default:about} 
+    path:     /{_locale}/about
+    defaults: { _controller: GestionProjetBundle:Default:about}
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 service:
-    path:     /service
-    defaults: { _controller: GestionProjetBundle:Default:service}    
+    path:      /{_locale}/service
+    defaults: { _controller: GestionProjetBundle:Default:service}
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
     
 MS-Compta :
-    path:     /comptoir
-    defaults: { _controller: GestionProjetBundle:Default:compta}  
+    path:     /{_locale}/comptoir
+    defaults: { _controller: GestionProjetBundle:Default:compta} 
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 MS-Achat:
-    path:     /achat
+    path:     /{_locale}/achat
     defaults: { _controller: GestionProjetBundle:Default:achat} 
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 MS-Budget:
-    path:     /budget
-    defaults: { _controller: GestionProjetBundle:Default:budget}      
+    path:     /{_locale}/budget
+    defaults: { _controller: GestionProjetBundle:Default:budget}
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 GestionComptable:
-    path:     /gestioncomptable
+    path:     /{_locale}/gestioncomptable
     defaults: { _controller: GestionProjetBundle:Default:GestionComptable} 
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 MS-RH:
-    path:     /rh
-    defaults: { _controller: GestionProjetBundle:Default:rh}  
+    path:     /{_locale}/rh
+    defaults: { _controller: GestionProjetBundle:Default:rh}
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 MS-VE:
-    path:     /vente
-    defaults: { _controller: GestionProjetBundle:Default:ve}  
+    path:     /{_locale}/vente
+    defaults: { _controller: GestionProjetBundle:Default:ve} 
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 MS-Cars:
-    path:     /car
+    path:     /{_locale}/car
     defaults: { _controller: GestionProjetBundle:Default:car} 
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 MS-Haras:
-    path:     /haras
-    defaults: { _controller: GestionProjetBundle:Default:haras}     
-    
+    path:      /{_locale}/haras
+    defaults: { _controller: GestionProjetBundle:Default:haras}
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
     
 myapplication_contact:
-    path:     /contact
-    defaults: { _controller: GestionProjetBundle:Default:contact }      
+    path:     /{_locale}/contact
+    defaults: { _controller: GestionProjetBundle:Default:contact }  
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
+    
+Reference:
+    path:     /{_locale}/reference
+    defaults: { _controller: GestionProjetBundle:Default:reference }
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
+
+Translation: 
+    path:     /{_locale}/translate
+    defaults: { _controller: GestionProjetBundle:Translate:show } 
+    
+   

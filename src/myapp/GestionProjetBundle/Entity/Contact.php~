@@ -2,6 +2,10 @@
 
 namespace myapp\GestionProjetBundle\Entity;
 
+use Symfony\Component\Validator\Constraints\MinLength;
+use Symfony\Component\Validator\Constraints\MaxLength;
+use Symfony\Component\Validator\Constraints as Assert;
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -21,31 +25,59 @@ class Contact
      */
     private $id;
 
-    /**
+     /**
      * @var string
      *
      * @ORM\Column(name="nom", type="string", length=255)
+     * 
+     *  * * *
+     * @Assert\NotBlank(message="entrer votre nom.", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=30,
+     *     minMessage="Le titre est trop court.",
+                           
+     *     maxMessage="le titre est trop  long.",
+     *     
+     * )
      */
     private $nom;
 
-    /**
+  /**
      * @var string
      *
-     * @ORM\Column(name="email", type="string", length=255)
+     * @ORM\Column(name="mail", type="string", length=255)
+     * 
+     *  @Assert\NotBlank(message="entrer votre mail.", groups={"Registration", "Profile"})
+     * @Assert\Email(
+     *     message = "The email '{{ value }}' is not a valid email.",
+     *     checkMX = true
+     * )
      */
     private $email;
 
-    /**
+         /**
      * @var string
      *
      * @ORM\Column(name="objet", type="string", length=255)
+     * 
+     *  * * *
+     * @Assert\NotBlank(message="entrer votre objet.", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=30,
+     *     minMessage="L'objet est trop court.",
+                           
+     *     maxMessage="l'objet est trop  long.",
+     *     
+     * )
      */
     private $objet;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="sujet", type="string", length=255)
+     * @ORM\Column(name="sujet", type="text")
      */
     private $sujet;
 
@@ -156,4 +188,3 @@ class Contact
         return $this->sujet;
     }
 }
-

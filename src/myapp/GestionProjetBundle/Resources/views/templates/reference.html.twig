@@ -1,0 +1,620 @@
+{% extends '::base.html.twig'%}
+
+{% block body %}
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+    </head> 
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('Reference', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('Reference', {'_locale' : 'en'}) }}">EN</a>
+</div> 
+    <div id="about-page">
+
+
+        <!-- site-navigation start -->  
+
+        <!-- site-navigation end -->
+
+
+        <div class="container">
+            <div class="row">   
+                <div class="intro-description">           
+                    <div>   
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+                                <h3 style="color:#0000FF">Ms-Haras  </h3>
+
+
+
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }} : Fnarc</h3>
+                               
+                                <p style="text-align:center">  <img src="{{asset('templates/images/LogoFNARC.png')}}" class="img-responsive center-block" alt="intro"></p>
+                               
+
+                               
+
+
+                                {{ 'translate.link28'|trans }}  <p><a href="http://microsysteme.tn/haras">Ms-Haras</a></p>
+
+
+
+                            </dl>       
+
+
+                        </article>
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF"> MS_Cars </h3>
+
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }} : MTK </h3>
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/kairouan.jpg')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd>
+
+                                     
+
+
+                                    {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/car">Ms-Cars</a></p> <br>
+
+
+
+
+                            </dl>       
+
+
+                        </article>
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF"> Ms-Cars </h3>
+
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }} : Ministère-des-affaires-locales</h3>
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/Logo-ministère-des-affaires-locales.png')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd>
+
+
+                                
+
+
+                                   {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/car">Ms-Cars</a></p> <br>
+
+
+
+
+                            </dl>       
+
+
+                        </article>       
+
+
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+                                <h3 style="color:#0000FF">Erp : MS-Budget , MS-Comptabilité , MS-Achat , MS-Stock , MS- Immobilisation</h3>
+
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }} : ANCSEP </h3>
+                                <p style="text-align:center"> <img src="{{asset('templates/images/monplaisir.png')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">  <br>
+
+
+
+                                         {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
+
+                                    <p><a href="http://microsysteme.tn/gestioncomptable">MS-Comptabilité</a></p> <br>
+
+
+                                    <p><a href="http://microsysteme.tn/achat">MS-Achat</a></p> <br>
+
+
+                            </dl>       
+
+
+                        </article>
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+                                <h3 style="color:#0000FF"> Erp : MS-Budget , MS-Comptabilité , MS-Achat , MS-Stock , MS- Immobilisation </h3>
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }} :CENTRE DE RECHERCHE  ET NANOTECHNOLOGIE</h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/sousse.png')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">  <br>
+
+
+
+                                        {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
+
+                                    <p><a href="http://microsysteme.tn/gestioncomptable">MS-Comptabilité</a></p> <br>
+
+
+                                    <p><a href="http://microsysteme.tn/achat">MS-Achat</a></p> <br>
+
+
+
+                            </dl>       
+
+
+                        </article>
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+                                <h3 style="color:#0000FF">  Erp : MS-Budget , MS-Comptabilité , MS-Achat , MS-Stock , MS- Immobilisation</h3>
+
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }}:Centre de recherche et des technologies de l'energie </h3>
+                                <p style="text-align:center"> <img src="{{asset('templates/images/borj cedria.jpg')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">  <br>
+
+
+
+                                         {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
+
+                                    <p><a href="http://microsysteme.tn/gestioncomptable">MS-Comptabilité</a></p> <br>
+
+
+                                    <p><a href="http://microsysteme.tn/achat">MS-Achat</a></p> <br>
+
+
+
+
+
+                            </dl>       
+
+
+                        </article>                        
+
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+                                <h3 style="color:#0000FF">Ms-Comptoir</h3>
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }} : SOMAP sousse</h3>
+
+
+                                <br>
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">  <br>
+
+
+
+                                         {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/comptoir">Comptoir -Gestion Commerciale</a></p> <br>
+
+
+
+                            </dl>       
+
+
+                        </article>
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+                                <h3 style="color:#0000FF"> Erp : MS-Paie & RH </h3>
+                                <h3 style="text-align:left">{{ 'translate.link27'|trans }}: Aquatun</h3>
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/aquatun.jpg')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">  <br>
+
+
+
+                                        {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/rh">MS-Paie & RH</a></p> <br>
+
+
+                            </dl>       
+
+
+                        </article>    
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+
+                                <h3 style="color:#0000FF">{{ 'translate.link27'|trans }}: Ministre des Domaines de l’Etat et des Affaires foncières </h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/Ministre des Domaines de l’Etat et des Affaires foncières.jpg')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <dd><p class="text-justify"><font face="verdana" width="90px" height="50px">  <br>
+
+
+
+                                         {{ 'translate.link28'|trans }}
+
+
+
+                            </dl>       
+
+
+                        </article>         
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF"> {{ 'translate.link27'|trans }} : Municipalite moknine </h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/moknine.jpg')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <p>{{ 'translate.link29'|trans }} moknine :<a href="http://www.commune-moknine.gov.tn">Municipalite moknine</a></p>
+
+
+
+
+
+
+                            </dl>       
+
+
+                        </article> 
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF">{{ 'translate.link27'|trans }} :  Municipalite Haffouz </h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/haffouz.png')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <p>{{ 'translate.link29'|trans }}  haffouz :<a href="http://www.commune-haffouz.gov.tn/fr-fr/">Municipalite Haffouz</a></p>
+
+
+
+
+
+
+                            </dl>       
+
+
+                        </article> 
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF">{{ 'translate.link27'|trans }} : Wafa informatique et bureautique </h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/wib.png')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <p>{{ 'translate.link30'|trans }}  Wib  :<a href="http://www.wib.com.tn/">Wib</a></p>
+
+
+
+
+                            </dl>       
+
+
+                        </article>   
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF">{{ 'translate.link27'|trans }} : Aleximmo</h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/aleximmo.jpg')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <p>{{ 'translate.link30'|trans }} Aleximmo :<a href="http://www.aleximmo.tn/">Aleximmo</a></p>
+
+
+
+
+
+
+                            </dl>       
+
+
+                        </article>                  
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF">{{ 'translate.link27'|trans }} : NORTH AFRICA CONSULTING TRADING</h3>
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/nact.png')}}" class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <p>{{ 'translate.link30'|trans }} Nact   :<a href="http://www.nact.tn/">Nact</a></p>
+
+
+
+
+
+                            </dl>       
+
+
+                        </article>      
+
+
+                        <article><br>
+                            <br>
+                            <dl class="dl-vertical" >
+
+                                <br>
+
+
+                                <h3 style="color:#0000FF">{{ 'translate.link27'|trans }}: Avatar Travel Agency</h3>
+
+
+
+                                <p style="text-align:center"> <img src="{{asset('templates/images/avatar1.png')}} "  class="img-responsive center-block" alt="intro"></p>
+                                <p style="text-align:center"> <img src="{{asset('templates/images/avatar2.png')}} "  class="img-responsive center-block" alt="intro"></p>
+                                <p style="text-align:center"> <img src="{{asset('templates/images/avatar3.png')}} "  class="img-responsive center-block" alt="intro"></p>
+                                <br>
+
+                                <p>{{ 'translate.link30'|trans }} Avatar travel agency  :<a href="http://www.avatar.tn/">Avatar</a></p>
+
+
+
+
+                            </dl>       
+
+
+                        </article>                 
+                        <article><br>
+
+                      
+                            </div>
+                                
+                    Pour plus d'informations ,veuillez rediriger vers la page devis   
+                         <p><a href="http://microsysteme.tn/devi/fr/new"class="btn btn-info" ></span>Devis</a></p> <br>
+                         
+                         
+                      
+
+                            </div>
+                            </div>
+                            </div>     
+                            </div>   
+
+
+
+
+                  <footer>
+                <div class="container">
+                    <div class="row">
+
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link155'|trans }}</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                </div>
+
+                              
+                            </ul>
+                        </div>
+                                
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link156'|trans }}</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+                                   
+                                </div>
+
+                              
+                            </ul>
+                        </div>        
+                                
+
+                        <!-- recent news -->
+             
+
+                        <!-- news-letter -->
+                  
+
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>MicroSystem Solutions </h4>
+
+                         
+
+                            <div class="footer-address">
+                                <p>
+                                    {{ 'translate.link162'|trans }} <br>
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
+                        
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
+                    </div>
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
+                            <a href="#">
+                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                     
+                </div><!-- /.container -->
+            </nav>
+                                
+                </div>
+            </footer>
+
+
+                    </div> <!-- end of /#home-page -->
+
+                    <!--  Necessary scripts  -->
+
+
+
+
+
+
+
+
+
+
+
+                    </body>
+                    </html>
+
+                {%endblock  %}

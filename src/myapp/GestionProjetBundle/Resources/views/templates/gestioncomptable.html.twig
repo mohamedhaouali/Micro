@@ -18,7 +18,10 @@
 
 
         </head>
-
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('GestionComptable', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('GestionComptable', {'_locale' : 'en'}) }}">EN</a>
+</div> 
         <body>
             <div id="multiple-blog-page">
             <h3 style="color:#0000FF"> Vidéo MS-COMPTA </h3>  
@@ -40,42 +43,26 @@
 
                                     <div class="blog-heading">
                                         <h3 class="text-capitalize" style="color:#483D8B">
-                                            MS-Compta – Gestion comptable
-                                            Comptabilité générale ,
-                                            Comptabilité analytique ,
-                                            Comptabilité tiers
+                                            {{ 'translate.link72'|trans }}
+                                        
 
                                         </h3> 
-                                        <h3 class="text-capitalize" style="color:#0000FF">Description Générale</h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link73'|trans }}</h3>
 
                                     </div>
-                                   
-                                        MS-Compta assure une gestion une tenue rigoureuse de la comptabilité de votre entreprise : générale, analytique et des tiers.
+                                   {{ 'translate.link74'|trans }}
+                                        
                                    
                                 </article> <!-- /.blog-item -->
 
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">1-Comptabilité générale </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link75'|trans }} </h3>
 
                                     </div>
-                                
-                                        	Génération automatique des écritures comptables à partir des autres modules : Achat, ventes, Paie,…<br>
-                                        	Plan comptable paramétrable et pré-paramétré selon les normes comptables tunisiennes <br>
-                                        	Gestion des écritures : saisie, lettrage, modification, annulation,…<br>
-                                        	Gestion des écritures provisoires <br>
-                                        	Rapprochement bancaire <br>
-                                        	Lettrage automatique et manuel <br>
-                                        	Gestion des modèles de saisie <br>
-                                        	Edition paramétrables des états<br>
-                                        o	Grand-livre, grand-livre analytique <br>
-                                        o	Balance, balance analytique, balance générale et auxiliaire <br>
-                                        o	Journaux	(auxiliaires,	centralisateurs, récapitulatifs, TVA, achat, vente,…)<br>
-                                        o	Bilan, état de résultat, flux de trésorerie, schéma, solde intermédiaire de gestion,…)<br>
-                                        o	Etats budgétaires <br>
-                                        o	Déclaration TVA <br>
-                                        o	Déclaration employeur <br>
+                                {{ 'translate.link76'|trans }}
+                                   
                                        
 
 
@@ -85,21 +72,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">2-Comptabilité Tiers  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link77'|trans }}  </h3>
 
                                     </div>
-                                   
-                                        Grace à son module de comptabilité auxiliaire, MS-Compta traite les enregistrements et le suivi comptable des opérations d’achat et de vente avec les partenaires commerciaux (clients, fournisseurs) de votre entreprise.<br>
-
-                                          o Gestion des retenues à la source <br>
-                                          o Gestion des factures et des arriérés …<br>
-                                          o Prise en considération des ventes à l’export <br>
-                                          o Prise en considération des opérations d’achat locales et étrangères <br>
-                                          o Gestion des provisions <br>
-                                          o Paramétrage des éditions <br>
-                                          o Balance tiers <br>
-                                          o Relance clients <br>
-
+                                   {{ 'translate.link78'|trans }}
+                                
 
                                    
 
@@ -109,19 +86,15 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">3-Comptabilité analytique
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link79'|trans }}
 
                                         </h3>
 
                                     </div>
                                    
-
-                                          Ventilation multiaxes en pourcentage et
-                                          en montant <br>
-                                         Définition des axes analytiques <br>
-                                         Gestion des coûts cachés <br>
-                                         Imputation par affectation (unité
-                                        organisationnelle) et par nature d’activité.
+{{ 'translate.link80'|trans }}
+                                    
+                                    
 
 
                                   
@@ -130,16 +103,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">4-Analyse multidirectionnelles & éditions paramétrables  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link81'|trans }} </h3>
 
                                     </div>
-                                   
-                                         Bibliothèques d’états standards conformes à la réglementation tunisienne <br>
-                                         Possibilité d’ajout et de modification des
-                                          états <br>
-                                         Analyse multiaxes des variantes de
-                                          l’entreprise.<br>
-                                         Autres états et éditions suivant les besoins de l’utilisateur.
+                                   {{ 'translate.link82'|trans }}
+                                       
 
                                    
 
@@ -147,15 +115,16 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">5-Interopérabilité  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link83'|trans }} </h3>
 
                                     </div>
-                                  
-                                        MS-Compta s’interface automatiquement avec les différents modules de MS-ERP, <br>o tels que le module
-                                        de gestion des ventes<br>o le module de gestion budgétaire<br>o le module de gestion des achats.
+                                  {{ 'translate.link84'|trans }}
+<h3 class="text-capitalize" style="color:#483D8B"> Pour telecharger la version pdf du Compta </h3> <br>
 
-                                  
-
+Cliquer sur ce lien <br><br>
+ 
+ 
+<p><a href="{{asset('templates/images/Compta.pdf')}}">telecharger la version pdf du Compta</a></p>                                          
 
                                 </article> <!-- /.blog-item --
                                 <div class="row">
@@ -182,120 +151,127 @@
     </section>
 
     <footer>
-        <div class="container">
-            <div class="row">
+                <div class="container">
+                    <div class="row">
 
-                <!-- useful links -->
-                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                    <h4>Liens</h4>
-                    <ul class="row footer-links">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <li><a href="{{path('acceuil')}}">Acceuil</a></li>
-                            <li><a href="{{path('about')}}">About</a></li>
-                            <li><a href="{{path('service')}}">Service</a></li>
-                            <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
-                            <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                            <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                            <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
-                        </div>
-
-
-                    </ul>
-                </div>
-                        
-                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Logiciel Erp</h4>
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link155'|trans }}</h4>
                             <ul class="row footer-links">
-                               <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
-                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
-                                    <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
-                                    
-                                    </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                </div>
 
                               
                             </ul>
-                        </div>                  
+                        </div>
+                                
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link156'|trans }}</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+                                   
+                                </div>
+
+                              
+                            </ul>
+                        </div>        
+                                
+
+                        <!-- recent news -->
+             
+
+                        <!-- news-letter -->
+                  
+
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>MicroSystem Solutions </h4>
+
+                         
+
+                            <div class="footer-address">
+                                <p>
+                                    {{ 'translate.link162'|trans }} <br>
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
                         
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
 
-                <!-- recent news -->
+                         
 
-
-                <!-- news-letter -->
-
-
-                <!-- about avada agency -->
-                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                    <h4>MicroSystem Solutions </h4>
-
-
-
-                    <div class="footer-address">
-                        <p>
-                            Adresse <br>
-                            59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
-                            <br>
-
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
                     </div>
-
-
-                </div> <!-- /.footer-widget -->
-
-                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-
-                    <div class="footer-address">
-
-                        <p> Email <br>
-                            microsysteme@gnet.tn
-                        </p>
-
-
-                    </div>
-
-
-                </div>
-
-                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-
-
-
-
-                    <div class="footer-address">
-
-
-                        <p> Tél 
-                            <br>  
-                            (+216) 79 391 087 <br>
-                            (+216) 79 391 088 
-                        </p>
-                        <p>   Fax
-
-                            +216 79 391 056
-
-
-                        </p>
-
-                    </div>
-
-
-                </div> 
-
-
-            </div>
-
-            <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                <div class="container">
-
-                    <div class="navbar-header">
-
-                        <!-- navbar logo -->
-                        <div class="navbar-brand">
-
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
                             <a href="#">
-                                @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
                             </a>
                         </div>
                         <!-- navbar logo -->
@@ -303,12 +279,12 @@
                     </div><!-- /.navbar-header -->
 
                     <!-- nav links -->
-
+                     
                 </div><!-- /.container -->
             </nav>
-
-        </div>
-    </footer>
+                                
+                </div>
+            </footer>
 
 
 </div> <!-- end of /#home-page -->

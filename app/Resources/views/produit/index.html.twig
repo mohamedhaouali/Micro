@@ -1,0 +1,51 @@
+{% extends "BackBundle::base.html.twig" %}
+
+{% block A %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Listes Des Produits</p>
+            <div class="list-group">
+                <a href="{{path('produit_new')}}"class="list-group-item">Ajouter</a>
+                <a href="{{path('produit_modifier')}}" class="list-group-item">Modifier</a>
+                <a href="{{path('produit_index')}}" class="list-group-item">Afficher</a>
+               
+
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titre</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for produit in produits %}
+            <tr>
+                <td><a href="{{ path('produit_show', { 'id': produit.id }) }}">{{ produit.id }}</a></td>
+                <td>{{ produit.titre }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('produit_show', { 'id': produit.id }) }}"class="btn btn-info"><i class="icon-book"></i>Afficher</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('produit_edit', { 'id': produit.id }) }}"class="btn btn-danger"><i class="icon-edit"></i>edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+
+        </div>    
+    </div>
+{% endblock A %}  
+

@@ -1,0 +1,480 @@
+translate.link0: QUI SOMMES-NOUS?
+translate.link1: MicroSystem Solutions est une entreprise de conseil et services informatiques créé en 2005
+translate.link2: Elle est spécialise dans la conception et le developpement de logiciels ,de sites et d'application web sur mesure
+translate.link3: Elle accompagne ses clients dans leur développement grace a un suivi personnalisé.
+translate.link4: Nos Solutions
+translate.link5: services
+translate.link6: Analyser ensemble vos besoins
+translate.link7: Vous assister pour la rédaction du cahier du charges
+translate.link8: Vous informer et vous conseiller sur les solutions existantes
+translate.link9: Développer les applications répondant a vos besoins spécifiques
+translate.link10: Assurer la formation et le suivi de vos équipes sur les solutions développées
+translate.link11: MicroSystem Solutions est specialisée dans le domaine des nouvelles technologies de l'information et de la communication.
+                  Située a Ben Arous et a Boumhel ,elle répond aux besoins des pme/pmi,des artisans,des commercants,des professions libérales ,des particuliers 
+                  qui cherchent une entreprise informatique de proximité qui puisse assurer l'ensemble des taches de maintenance de de développement.
+                  Ses solutions sont diffusées par un réseau d'agences et de centres de compétences répartis sur tout le territoire national.    
+translate.link12: MicroSystem Solutions propose des solutions des en main depuis la creation du projet  jusqu'au transfert des compétences aux équipes internes et finalement jusqu'au suivi dans le temps ,avec des journées de conseil ou des interventions d'expertise .
+                  Les solutions proposées couvrent les différents domaines de gestion de l'entreprise     
+translate.link13: MS-Achat
+translate.link14: Comptoir
+translate.link15: MS-PAIE
+translate.link16: MS-Compta
+translate.link17: MS-Vente
+translate.link18: CE QUE NOUS FAISONS
+translate.link19: Maintenance et entretien de matriél
+translate.link20: Formation sur les outils informatiques
+translate.link20: Training on computer tools
+translate.link21: Assistance et conseil en informatique
+translate.link22: Formation sur les outils informatiques
+translate.link23: Conception et développement d'applications
+translate.link24: Vente de matériel et accesoires informatiques
+translate.link25: Les plus
+translate.link26: Nos SOLUTIONS
+translate.link27: Client  
+translate.link28: Pour plus d'informations
+translate.link29: Site pour la municipalite
+translate.link30: Site pour la société  
+translate.link31: Comptoir -Gestion commerciale
+translate.link32: Description Générale
+translate.link33: le logiciel comptoir assure le suivi et le contrôle de toutes les activités commerciales de l'entreprise.
+                  Il permet la réalisation des pièces comptables pour l'achat et la vente des produits et services
+                   bons de livraison ou facture d'achatbons de livraisons ,factures offres de prix commandes client/fournisseur ,avoir,...)
+                  Outre la facturation et la gestion du stock en multi-depots,Comptoir permet de nombreuses analyses multicritères.
+                  Il assure, avec son échéancier intègre le suivi du paiement des factures d'achat et de vente
+                  Il permet également de calculer la marge bénéficiaire par article, par client ou pour opération bien 
+                  détermine 
+                   II gère les commerciaux et calcule le chiffre d'affaires réalisé par  commercial 
+                   II S'agit d'un logiciel multiutilisateur pouvant fonctionner en réseau avec  génération dynamique 
+                  des menus en fonction des profils des utilisateurs 
+                   Ses éditions sont exportables aux formats pdf et html
+                   II est hautement sécurisé avec des comptes d'utilisateurs associés a des profils de gestion 
+                  Vous n'aurez plus besoin de papier entete,les pièces commerciales et les états sont édités avec
+                   l'entete
+                  le logo et les coordonnées de l'entreprise avec le modèle que vous choisissez.
+translate.link34: Liste des fonctionnalités   
+translate.link35: 1-Gestion Des Articles
+translate.link36: Classement par famille et par marque d'articles. Informations comptables  Compte, Code,NGP,TVA Coefficient de marge par article Statistiques de vente et d'approvisionnement par article Mise en sommeil de l'article
+translate.link37: 2-Gestion Des Fournisseurs
+translate.link38:  Gestion des coordonnées et des informations légales du fournisseur 
+                   (Adresse, téléphone, faxe, mail, Matricule fiscal
+                   Famille de fournisseurs 
+                   Calcul de l'encours les bons de livraisons non facturés et les factures non réglées 
+                   Edition de la fiche fournisseur, par facture ou par article qui résume 
+                   les différentes opérations effectuées avec la fournisseur encours pour une période donnée
+translate.link39: 3-Gestion des clients   
+translate.link40: Gestion des coordonnées et des informations légales du client (Adresse,télephones,fax,émail,matricule fiscal,...)
+                   Nombre illimité de contact 
+                   Gestion des grilles de remise et des modes de règlement 
+                   Grille tarifaire et tarif exceptionnel par client ou famille de clients
+                   Recalcul de l'encours  en temps réel (bon de livraison non facturés
+                   et factures non réglées 
+                   Edition de la fiche client par facture ou par article 
+                   Gestion  de la TVA particulière (majoration de la TVA, exonération....) 
+translate.link41: 4-Gestion des achats
+translate.link42: •Gestion complète de la chaine des achats (commandes fournisseurs; bon de livraison, factures, factures périodiques) 
+                  •Mise a jour en temps réel du stock 
+                  •Prise en considération des remises attribuées par le fournisseur 
+translate.link43: 5-Gestion des ventes
+translate.link44: Gestion complète du cycle des ventes (offre de prix, commandes client, bon de livraison ,fiches d'interventions, factures, avoir ,....)
+                  •Message d'avertissement si vente a perte et sur les articles en rupture du stock 
+                  •Gestion des grilles de remise et tarifaires globales ou par article 
+                  •Transformation d'une offre de prix en une commande client ou un bon de livraison 
+                  •Gestion de portefeuilles d'offres de prix et de commandes clients 
+                  ou un bon de livraison et d'une commande client en un bon de livraison 
+                  •Mise a jour du stock en temps réel 
+                  •Calcul automatique de la marge bénéficiaire 
+translate.link45: 6-Stock Management
+translate.link46: •Bon de sotie/Bon d'entrée 
+                  •Valorisation du stock au prix moyen pondéré ou dernier prix du revient 
+                  •Impression des mouvements du stock, état du stock ,disponibilité des articles, réapprovisionnement 
+                  •Nombre illimité de dépôts avec dépôt principal 
+                  •Gestion des stocks par dépôt
+translate.link47: 7-Commercial Management
+translate.link48: Fiche individuelle :coordonnées complètes(adresse,télephones,fax,email,...) 
+                  Définition des règles de calcul des commissions 
+                  Gestion du compte du commercial :affichage par liste des clients par secteur 
+                  Chiffre d'affaires réalise par mois 
+                  Etat des commissions par commercial 
+                  Encours global du commercial 
+                  Compte rendu mensuel par chiffre d'affaires HT et TTC 
+translate.link49: 8-Gestion Gestion Des Règlements Et Échéancie 
+translate.link50:  •Gestion des règlements client fournisseur avec mémorisation des conditions (modes de règlement ,délai ,conditions commerciales....)
+                   •Règlement unitaire (par facture),partiel ou global (plusieurs factures en même temps)
+                   •Gestion des écarts de règlement 
+                   •Impression de l'échéancier pour  une période demandée 
+translate.link51: 9-Transfert Comptable
+translate.link52: •Transfert des données en comptabilité sans aucune ressaisie 
+                  •Impression automatique de la déclaration mensuelle des impôts 
+                  •Impression des journaux
+translate.link53: 10-Editions Et Statistiques
+translate.link54: •Edition de la liste des prix générale par famille et/ou par marque 
+                  •Inventaire du stock général par famille et/ou par marque 
+                  •Suivi des bons de livraison non facturés 
+                  •Détail des factures selon le mode de règlement 
+                  •Répartition du chiffre d'affaires par client et/ou par article 
+                  •Répartition de la marge bénéficiaire par client et/ou par article 
+                  •Volume des achats 
+                  •Comparaison du chiffre d'affaires réalisé sur toute l'année ou pour une période donnée    
+translate.link55: Interface Homme Machine (IHM) pour gestion de tracabilité Parc Auto
+translate.link56: Objectif
+translate.link57: •les responsabilités du gestionnaire de parc autombile
+                  •Essentiellement administratives
+                  •Réception des marchandises a transporter
+                  •Planification du transport 
+                  •Emission des ordres de missions 
+                  •Gestion des heures de travail (pointage des chauffeurs)
+                  •Emission des notes de frais pour le chauffeur
+                  •Emission des document de transport 
+                  Controle ,suivi et actualisation des documents des véhicules et des documents des chauffeurs
+                  •Suivi du controle technique des véhicules
+                  •Gestion des entrées et sorties des véhicules
+                  •Gestion de la tracabilité des véhicules sur le terrain 
+                  •Controle des processus de gestion informatique de l'information 
+translate.link58: Les Principales Fonctionnalités  
+translate.link59: •Gestion des stocks de consommables et de pieces de recharge
+                  •Gestion des ressources humaines (horaire  de travail)
+                  •Gestion de la maintenance 
+                  •Planification des livraisons 
+                  •Gestion des transports (tracibilité,documents de transport 
+translate.link60: MS-Achat – Gestion Achats Et Des N Des Approvisionnements Pour Une Gestion Optimale Du Processus D’approvisionnement De Votre Entreprise
+translate.link61: MS-ACHAT automatise le processus d’approvisionnement depuis l’expression des besoins jusqu’à la réception de la marchandise et la mise à jour des stocks
+                  Il prend en considération les différents intervenants avec les natures des actions possibles (consultation, modification, suppression, validation, annulation, clôture
+translate.link62: 1- Présentation de MS-Achat 
+translate.link63: Prise en considération du budget alloué ;
+                  Gain en temps  avec la possibilité de transformer les demandes d’achat en bon de livraison et/ou en bon de commande fournisseur ; ou transformer une offre de prix en un bon de commande.
+                  Consultation en temps réel du stock disponible, avec les commandes encours.
+                  MS-ACHAT offre en standard personnalisable une automatisation des obligations réglementaires afin de simplifier le processus. Avec sa gestion de Workflow intégrée, MS-Achat réduit la montée en charge organisationnelle (saisie des demandes d’achat, saisie des bons de commandes fournisseurs, suivi de l’état des commandes, …)
+translate.link64: 2-Une Solution Évolutive & Personnalisable
+translate.link65: Les données du module MS-ACHAT sont paramétrables  liste des pays, banques, taux de TVA, dépôts, natures d’articles, familles de fournisseurs, fournisseurs, civilités,… 
+                  Paramétrage de la codification des articles par famille/sous-famille, numérotation automatique,… 
+                  Paramétrage de la codification des fournisseurs  selon le code comptable en vigueur 
+                  Personnalisation des fiches articles et des fiches fournisseurs par des champs libres
+                  Classification des fournisseurs par famille, par natures d’articles, par civilité,…
+translate.link66: 3-Fonctionnalités      
+translate.link67: Suivi des demandes d’achats internes par structure depuis la création de la demande jusqu’à la livraison de la marchandise, tout en prenant en considération les étapes de validation par les supérieurs hiérarchiques, les magasiniers 
+                  Suivi des livraisons internes et mise à jour des stocks 
+                  Suivi des offres de prix et édition du tableau comparatif des prix 
+                  Possibilité de transformation d’une offre de prix en un bon de commande 
+                  Suivi du cycle de vie d’un bon de commande depuis la création jusqu’à la clôture et des réceptions correspondantes 
+                  Prise en considération des livraisons partielles 
+                  Suivi de la facturation fournisseur 
+                  Ajustement des factures 
+                  Suivi des délais de livraisons et des retards, avec prise en considération de la pénalité
+translate.link68: 4-Analyse multidirectionnelles & éditions paramétrables
+translate.link69: Edition du journal des achats selon des critères personnalisables famille, fournisseurs, articles,…
+                  Edition des états récapitulatifs des achats 
+                  Analyse multiaxes de l’évolution de la consommation
+                  Edition des journaux de livraison 
+                  Edition des états récapitulatifs des factures
+                  Autres états et éditions suivant les besoins de l’utilisateurs
+translate.link70: 5-Interopérabilité  
+translate.link71: MS-Achat s’interface automatiquement avec les différents modules de MS-ERP, tels que le module de gestion des ventes, le module de gestion budgétaire, le module de gestion comptable analytique, tiers,     
+translate.link72: MS-Compta – Gestion Comptable Comptabilité Générale , Comptabilité Analytique , Comptabilité Tiers
+translate.link73: Description Générale
+translate.link74: MS-Compta assure une gestion une tenue rigoureuse de la comptabilité de votre entreprise  générale, analytique et des tiers.
+translate.link75: 1-Comptabilité Générale 
+translate.link76: Génération automatique des écritures comptables à partir des autres modules  Achat, ventes, Paie
+                  Plan comptable paramétrable et pré-paramétré selon les normes comptables tunisiennes 
+                  Gestion des écritures  saisie, lettrage, modification, annulation
+                  Gestion des écritures provisoires 
+                  Rapprochement bancaire 
+                  Lettrage automatique et manuel 
+                  Gestion des modèles de saisie 
+                  Edition paramétrables des états
+                  Grand-livre, grand-livre analytique 
+                  Balance, balance analytique, balance générale et auxiliaire 
+                  Journaux auxiliaires centralisateurs, recapitulatifs  TVA achat vente
+                  Bilan, état de résultat, flux de trésorerie, schéma, solde intermédiaire de gestion
+                  Etats budgétaires 
+                  Déclaration TVA 
+                  Déclaration employeur
+translate.link77: 2-Comptabilité Tiers
+translate.link78: Grace à son module de comptabilité auxiliaire, MS-Compta traite les enregistrements et le suivi comptable des opérations d’achat et de vente avec les partenaires commerciaux (clients, fournisseurs) de votre entreprise.
+                  Gestion des retenues à la source 
+                  Gestion des factures et des arriérés …
+                  Prise en considération des ventes à l’export 
+                  Prise en considération des opérations d’achat locales et étrangères 
+                  Gestion des provisions 
+                  Paramétrage des éditions 
+                  Balance tiers 
+                  Relance clients  
+translate.link79: 3-Comptabilité Analytique
+translate.link80: Ventilation multiaxes en pourcentage et en montant 
+                  Définition des axes analytiques 
+                  Gestion des coûts cachés 
+                  Imputation par affectation (unité organisationnelle) et par nature d’activité.
+translate.link81: 4-Analyse Multidirectionnelles & Éditions Paramétrables
+translate.link82: Bibliothèques d’états standards conformes à la réglementation tunisienne 
+                  Possibilité d’ajout et de modification des états 
+                  Analyse multiaxes des variantes de l’entreprise.
+                  Autres états et éditions suivant les besoins de l’utilisateur. 
+translate.link83: 5-Interopérabilité
+translate.link84: MS-Compta s’interface automatiquement avec les différents modules de MS-ERP, 
+                  tels que le module de gestion des ventes
+                  le module de gestion budgétaire
+                  le module de gestion des achats.
+translate.link85: Description Générale  
+translate.link86: Ms-haras c’est une application de gestion des haras qui permet
+                  Le suivi sanitaire
+                  Reproduction
+                  Alimentation des chevaux avec une traçabilité de pedigrees et de l’arbre généalogiques 
+                  Qui détermine avec précision les origines de chaque cheval.
+translate.link87: 1-Entrée/Sortie
+translate.link88: Ce module contient 3 sous modules 
+                  Pour l’entrée, il nous permet d’ajouter des bons d’entrée ou on ajoute les chevaux qui ont entrée au haras, et saisir les informations du cheval 
+                  Motif d’entrée
+                  Statut
+                  Visite a l’arrive
+                  Les dates des vaccinations (grippe, rage…)
+                  Pour la sortie,     
+                  Il permet d’ajouter des bons de sortie 
+                  Ajouter des bons  du sortie ou on ajoute les chevaux qui ont sortie des haras
+                  Saisir le  motif de la sortie 
+                  Pour le statut
+                  On sélectionne le cheval qui a change son statut
+                  Saisir son statut actuel
+translate.link89: 2-Suivi Sanitaire
+translate.link90: Ce module concerne les actes vétérinaires des chevaux 
+                  Les actes vétérinaires par cheval
+                  Les actes vétérinaires par acte 
+                  Planification des actes vétérinaires
+translate.link91: ce module concerne la reproduction des chevaux 
+                  Chaleur
+                  Echographie
+                  Etalon/Jument
+translate.link92: 4-Semence congelé
+translate.link93: Ce module concerne les semences congelées, il permet 
+                  Ajouter les semences congelées
+                  Saisir les entrées de la semence congelée
+                  Saisir les sorties de la semence congelée
+translate.link94: 5-Frais D’interventions
+translate.link95: Ce module  permet de faire la facturation 
+                  Les actes vétérinaires 
+                  Frais de pension
+                  Fraie de saillie 
+translate.link96: 6-Paramétrage
+translate.link97: Ce module contient tous les paramètres de l’application 
+                  Entrées /sorties (motif du sortie, motifs d’entrées, visite a l’arrive, liste des propriétaires, motifs de changement du statut, pays, staut, gestion des chevaux) 
+                  L’intervention  (intervenants, unites, type d’intervention, gestion d’articles, voies) 
+                  Divers  (centre de production, frais de saillie, aliments, frais de pension) 
+translate.link98: 7- Confidentialité
+translate.link99: Ce  module  il nous permet de faire 
+                  Administration  (sauvegarder la base de donneés, consulter l’historique des sauvegardes, historique technique, suppression des données) 
+                  Gestion des profils  ou on trouve les différents profils (Administrateur, Gestionnaire…) 
+                  Utilisateurs  ou on peut ajouter, modifier,supprimer les utilisateurs 
+translate.link100: MS-Budget – Gestion Budgétaire & Contrôle De Gestion Pour Une Gestion Simple Et Efficace De Votre Budget 
+translate.link101: Description Générale
+translate.link102: Afin d’assurer sa pérennité, l’entreprise tunisienne doit se doter d’outils efficaces, dont l’outil budgétaire. En effet, ce dernier permet de réaliser des contrôles et des prévisions aidant les dirigeants à prendre leurs décisions.
+translate.link103: 1-Présentation De MS-Budget
+translate.link104: Les entreprises tunisiennes sont souvent soucieuses de bien gérer leur budget et de bien contrôler la
+                   réalisation en temps réel.  Cependant, les intervenants du processus budgétaires sont nombreux et les besoins des uns et des autres sont fort différents.
+                   C’est dans ce cadre que s’inscrit le logiciel MS- Budget qui offre aux entreprises une solution évolutive fiable et flexible pour la maîtrise des enjeux de leur gestion
+                   budgétaire. L’entreprise dispose ainsi d’une vision précise sur son budget avec les possibilités d’investissement et des dépenses diverses.
+                   MS-Budget offre en standard personnalisable une automatisation des obligations réglementaires afin de simplifier le processus. Avec sa gestion de Workflow intégrée, MS-Budget réduit la montée en charge organisationnelle (saisie des demandes de demandes de budget, saisie décentralisée des engagements, …)
+translate.link105: 2-Paramétrage selon la réglementation en vigueur  
+translate.link106: MS-Budget est la solution la plus adaptée aux besoins de votre entreprise.
+                   Elle assure une gestion, en parallèle, des budgets d’exploitation et d’investissement.
+                   les données de base du module de gestion budgétaire sont paramétrables selon le besoin de l’utilisateur, en prenant en considération la réglementation en vigueur 
+                   MS Budget convient aussi bien aux entreprises privées qu aux entreprises appliquant des conventions collectives 
+                   Assurer la gestion des previsions periodiques et ou annuelles
+                   Intégration automatique des réalisations à partir des modules de gestion des ventes et des achats 
+                   Repartition des budgets par période, par organisme ou par rubrique/sous- rubrique 
+                   Gestion de plusieurs exercices sur la meme base de donnees 
+                   Fonction d’archivage des données
+                   Edition paramétrable des fiches de suivi budgétaires.
+translate.link107: 3-Prise en considération des opérations sur le budget
+translate.link108: MS-Budget offre une gestion complète et fiable de votre budget. 
+                   Le cycle de vie de chaque opération
+                   sur le budget passe de la création à la validation, l’annulation ou le rejet du responsable. Chaque
+                   intervention est archivée, rien n’est supprimé 
+                   Virement entre les rubriques/sous-rubriques de budget 
+                   Prise en considération des projets de budget 
+                   Gestion des crédits budgétaires 
+                   Gestion des prévisions de dépenses et de recette 
+                   Gestion des engagements  avec la possibilité de paramétrer le modèle de l’engagement 
+                   Saisie des budgets par exercice 
+                   Prise en considération de plusieurs exercices sur la même base de données 
+                   Suivi des marchés 
+                   Suivi des factures
+translate.link109: 4-Analyse Multidirectionnelles & Éditions Paramétrables
+translate.link110: Analyse des écarts entre les prévisions et le budget disponible global, par rubrique, par sous-rubrique, par unité organisationnelle …
+                   Suivi en temps réel de la consommation des budgets  global, par rubrique, par sous- rubrique, par unité organisationnelle …
+                   Rapprochement budgétaire et comptable 
+                   Edition du détail des dépenses par période 
+                   Edition du détail des recettes par période 
+                   Possibilité d’actualisation des prévisions 
+                   Edition du grand-livre budgétaire 
+                   Comparaison entre plusieurs exercices 
+                   Suivi des réalisations.
+translate.link111: 5-Interopérabilité
+translate.link112: MS-Budget s’interface automatiquement avec les différents modules de MS-ERP, tels que le module
+                   de gestion des ventes, le module de gestion des approvisionnements et des achats, le module de gestion comptable (analytique, tiers, …).
+translate.link113: MS-Paie & RH
+                   Pour une gestion simple et efficace de votre entreprise
+translate.link114: Description Générale    
+translate.link115: La stratégie de Microsystème est de couvrir l’ensemble des besoins fonctionnels et stratégiques de votre entreprise et qui s’articulent principalement autour de 
+                   La gestion comptable 
+                   La gestion financière 
+                   La gestion des ressources humaines et de la paie 
+                   La gestion commerciale 
+                   La gestion de la relation client 
+                   La gestion de la production
+                   La gestion de la maintenance 
+                   Nous offrons également des tableaux de bord personnalisables avec des axes d’analyse multicritères afin de mettre le décisionnel à la portée du responsable.
+                   Nos solutions sont disponibles en version intégrée ou modulaire selon la taille et la nature de l’activité de votre entreprise. Toutes nos offres se caractérisent par une gestion avancée de la confidentialité.<br> Chaque utilisateur est associé à un profil dd’accès qui détaille la nature des accès qui lui sont accordés (création, consultation, modification, suppression) par objet (fenêtre , menu, champ,…). Ainsi, c’est à vous de décider « qui peut faire quoi ».
+translate.link116: 1-MS-RH & Paie
+translate.link117: Les entreprises tunisiennes sont souvent soucieuses de bien gérer leurs masses salariéales tout en
+                   respectant les règles et les normes législatives imposées par les administrations tunisiennes.
+                   C’est dans ce cadre que s’inscrit le logiciel MS-RH et Paie qui offre aux entreprises une solution évolutive fiable et flexible pour la maîtrise des enjeux de leur capital humain et le pilotage de leur masse salariale.
+                   MS-RH & Paie offre en standard personnalisable une automatisation des obligations réglementaires afin de simplifier le processus. Avec sa gestion de Workflow intégrée, MS-RH & Paie réduit la montée en charge organisationnelle (saisie des demandes de congés, saisie décentralisée des absences, …)
+translate.link118: 2-Gestion fiable de la paie adaptée à tous les contrats de travail et à toutes les conventions collectives
+translate.link119: Eviter les erreurs de calcul et gérer les contraintes légales sont primordial au niveau du processus de paie.
+                   MS-RH & Paie est la solution la plus adaptée aux besoins de votre entreprise. Elle offre une gestion d’un nombre illimité de salariés avec un calcul automatique du rappel.
+                   MS-RH & Paie convient aussi bien aux entreprises privées qu’aux entreprises appliquant des conventions collectives.
+                   Edition des bulletins de paie sous un format personnalisable selon les besoins de votre entreprise 
+                   Edition des duplicata des bulletins 
+                   Profil de paie (plan des rubriques) fourni en standard pré paramétré dans le respect des contraintes   légales   (cotisations   CNSS/CNRPS )
+                   calcul   de   l’IRPP   selon   les   données introduites dans la fiche signalétique du salarié, assurance groupe ; avantages en nature ; TFP ; FOPROLOS,…) 
+                   Gestion de plusieurs exercices sur la même base de données 
+                   Fonction d’archivage des données 
+                   Edition des principaux états  journal de paie  état des charges ; état des paiements ; livre de paie ; liste des salariés d’une paie ; liste des paies d’un salarié ;…) ;
+                   Gestion du solde de tout compte 
+                   Prose en considération de la position du salarié (en activité ; en détachement ; sous les drapeaux,…) ;
+                   Etat des déclarations sociales  Production de la déclaration CNSS sous format numérique ou en version imprimable ; production de la déclaration CNRP sous format numérique ou en version imprimable ; déclaration d’impôt ; déclaration employeur sous format numérique ou en version imprimable ;<br>
+                   Paiement des salariés sur plusieurs banques.
+translate.link120: 3-La gestion administrative     
+translate.link121: MS-RH & Paie offre une gestion complète et fiable de votre capital humain.
+                   Fiche salarié  Chaque salarié est associé à un matricule (avec une possibilité d’imatriculation automatique des salariés). Ce module gère toutes les données relatives à un salarié 
+                   Etat civil  nom, prénom, nom de jeune fille, sexe, qualité, numéro de la C.I.N, date de livraison, nationalité, carte de séjour dans le cas d’un étranger,…
+                   Coordonnées  Adresse, téléphones, émail, site Web,…<br>
+                   Informations bancaires  banque, agence, N° du compte, pourcentage dans le cas d’un virement multiple,…
+                   Composition familiale et conjoint 
+                   Diplômes  liste des diplômes obtenus avec la date d’obtention, l’établissement, …
+                   Expériences antérieures  organisme et durée 
+                   Caractéristiques physiques  taille, pointure, poids, si votre entreprise distribue des tenues de travail au personnel ;
+                   Historique des visites médicales effectuées dans l’entreprise par le médecin de travail 
+                   Affectation  direction, département, service, section, lieu de travail …
+                   Contrat  type et nature du contrat, dates de début et de fin de la période d’essai,…
+                   Carrière  Echelle, échelon, grade, fonction, emploi,…
+                   Ces informations sont transmises automatiquement, au module paie notamment, au niveau de la composition familiale qui impacte le calcul de l’IRPP ou l’affectation et la carrière dans le cas des indemnités supplémentaires ( telles que la
+                   prime de fonction, indemnité de logement,…).
+                   Gestion disciplinaire
+                   Paramétrage de la liste des sanctions avec leurs degrés et leur impact sur la paie et sur la présence au travail 
+                   Historisation des procès verbaux et des décisions des conseils de discipline 
+                   Prise en considération de la retenue sur la paie 
+                   Calcul automatique de la date d’épuration de la sanction.
+                   Notation
+                   Edition des tableaux prévisionnels avec l’historique des notes, des sanctions, des retards et des absences par salarié 
+                   Historisation des notes annuelles pour tous les exercices 
+                   Calcul automatique de la moyenne des notes.
+                   Détachement
+                   Prise en considération des agents en détachement
+                   Possibilité d’intégrer un agent détaché ou de radier un agent détaché.
+translate.link122: 4-La gestion des temps et des activités
+translate.link123: La gestion des temps et des activités représente actuellement une activité transversale dans l’entreprise. En effet, une bonne gestion des T&A vous permet d’évaluer et d’optimiser la rentabilité de votre entreprise et de son capital humain.
+                   MS-RH et Paie peut être interfacé avec tous les terminaux de pointage. Il importe les temps pointés et calcule le temps de travail effectué par chaque salarié.
+                   Paramétrage des horaires de travail par unité organisationnelle et/ou par service avec la prise en considération des jours fériés et de l’horaire de ramadan ou d’été
+                   Calcul automatique du retard en secondes et des sorties avant heure en secondes selon les critères paramétrés respectant la réglementation interne de l’entreprise 
+                   Suivi et contrôle des présences en temps réel 
+                   Paramétrage des motifs d’absence avec le nombre de jours autorisés et leur impact sur la paie (congés de maladie, maternité,…) selon la réglementation en vigueur 
+                   Mise à jour automatique du solde des congés annules et report annuel des congés .
+                   Avec son système de Workflow intégré, MS-RH & Paie permet à vos collaborateurs de saisir à distance leurs demandes de congés. Ces demandes parviennent par émail au supérieur hiérarchique pour donner son avis.
+                   En structurant le flux d’information, MS-RH & Paie améliore la lisibilité des plannings et la coordination entre les collaborateurs.
+                   Prise en considération des heures supplémentaires avec les taux de majoration correspondants 
+                   Production du planning annuel des congés par unité organisationnelle 
+                   Edition du cahier de présence 
+                   Calcul des indicateurs de présence selon des axes d’analyse multicritères.
+translate.link124: 5-Gestion de la formation
+translate.link125: Suivi des catalogues de formation avec les cours, le nombre de séances, la durée ainsi que le coût 
+                   Edition de la feuille de présence 
+                   Suivi du remboursement TFP.
+translate.link126: 6-Gestion Sociale
+translate.link127: Assurance groupe
+                   Suivi des bulletins de soins 
+                   Edition des bordereaux 
+                   Suivi des remboursements 
+                   Calcul des montants remboursés par prestataire et prise en considération du plafond.
+                   Avance et prêts 
+                   Paramétrage des prêts accordés au personnel avec le montant maximum, le taux d’intérêt, la mensualité, la durée de remboursement ainsi que la période de franchise 
+                   Prise en considération du remboursement anticipé et de la suspension du remboursement 
+                   Transfert systématique en paie 
+                   Prise en considération des avances accordées au personnel avec leur impact sur la paie.
+translate.link128: 7-Gestion De La Carrière
+translate.link129: MS-RH & Paie s’adapte parfaitement à toutes les conventions collectives tunisiennes.
+                   Simulation de l’avancement de carrière d’un salarié depuis son embauche jusqu’à sa sortie 
+                   Avancement échelon suivant la réglementation 
+                   Edition des tableaux des avancements prévisionnels (échelle, grade, catégorie,…) en prenant en considération les données du dossier du salarié (historique des sanctions, retard, notes,…). Une fois validé, ce tableau impacte directement les dossiers des salariés concernés 
+                   Consultation de l’historique de tous les mouvements de carrière 
+translate.link130: 8-Gestion Du Recrutement
+translate.link131: MS-RH & Paie permet de gérer le processus de recrutement grâce à son outil d’aide à la
+                   décision pour le classement des candidats selon des critères présélectionnés et personnalisables (relevés des notes, situation familiale, âge,…)
+                   Gestion des candidatures
+                   édition des décisions de recrutement
+                   Gestion des postes
+                   liaison poste candidat
+translate.link132: MS-Vente – Gestion Des Ventes La Gestion Efficace De La Chaine De Facturation
+translate.link133: Description Générale
+translate.link134: MS-VENTE assure une gestion efficace et rigoureuse de la chaîne de facturation  devis, bons de commande, factures, bons de livraison, avoirs, bons de retours,… Grâce à son outil d’édition intégrée,
+                   MS-Vente permet une analyse multicritères des opérations de vente avec une graphique des statistiques.
+translate.link135: 1-Présentation de MS-Vente 
+translate.link136: Prise en considération du budget alloué 
+                   Gain en temps avec la possibilité de transformer les offres de prix en bon de livraison et/ou en factures 
+                   Prise en considération des ventes au comptant 
+                   Prise en considération des différentes natures de vente  (en suspension de la TVA, exonération de la TVA,..) et des
+                   différentes taxes selon la réglementation en vigueur taux de TVA, timbre fiscal
+                   MS-Vente assure le suivi et le contrôle des livraisons, ainsi que la prise en charge des commandes client.
+translate.link137: 2-Une solution évolutive & personnalisable   
+translate.link138: Les données du module MS-Vente sont paramétrables  liste pays, banques, taux des de TVA, dépôts, natures d’articles,familles de clients, clients, modes de règlement,…
+                   Paramétrage de la codification des articles  par famille/sous-famille, catégorie, numérotation automatique,…
+                   Paramétrage de la codification des clients  selon le code comptable en vigueur 
+                   Personnalisation des fiches articles et des fiches clients par des champs libres
+                   Classification des clients par famille, par natures d’articles, par civilité,…
+translate.link139: 3-Fonctionnalités
+translate.link140: Suivi des devis et des conventions 
+                   suivi des commandes client 
+                   Possibilité de transformation d’une offre de prix en un bon de commande client 
+                   Suivi du cycle de vie d’un bon de commande depuis la création jusqu’à la clôture et des livraisons correspondantes 
+                   Prise en considération des livraisons partielles 
+                   Suivi de la facturation 
+translate.link141: 4-Analyse multidirectionnelles & éditions paramétrables
+translate.link142: Edition du journal des ventes selon des critères personnalisables (famille, clients, articles,…)
+                   Edition des états récapitulatifs des ventes 
+                   Analyse multiaxes de l’évolution du chiffre d’affaires
+                   Edition des journaux de livraison 
+                   Edition des états récapitulatifs pour les différentes pièces (devis, bons de livraison, factures, avoirs,…)
+                   Edition du journal des commandes (carnet des affaires encours) 
+                   Edition du journal de TVA 
+                   Edition de la déclaration TVA 
+                   Edition de la déclaration employeur 
+                   Autres états et éditions suivant les besoins de l’utilisateur.
+translate.link143: 5-Interopérabilité 
+translate.link144: MS-Vente s’interface automatiquement avec les différents modules de MS-ERP, tels que le module
+                   de gestion des approvisionnements et des achats, le module de gestion budgétaire, le module de gestion comptable (analytique, tiers, …).
+                   Rapprochement budgétaire et comptable 
+                   Edition du budget projet 
+                   …  
+translate.link145: Acceuil   
+translate.link146: A propos
+translate.link147: Nos produits
+translate.link148: Devis
+translate.link149: MS-Comptoir -Gestion Commerciale
+translate.link150: MS-Achat
+translate.link151: Gestion Comptable
+translate.link152: MS-Paie & RH
+translate.link153: MS-VENTE
+translate.link154: Address
+translate.link155: Liens
+translate.link156: Logiciel Erp
+translate.link157: Nom                     
+translate.link158: Prénom
+translate.link159: Raison Sociale
+translate.link160: Matricule Fiscale
+translate.link161: Téléphone
+translate.link162: Adresse
+translate.link163: Produit
+translate.link164: Sujet et besoins
+translate.link165: N'hésitez pas à nous contacter.
+translate.link166: Mail
+translate.link167: Fax
+translate.link168: Envoyer
+translate.link169: Objet

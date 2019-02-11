@@ -1,9 +1,9 @@
-back:
-    resource: "@BackBundle/Resources/config/routing.yml"
-    prefix:   /
-
 gestion_projet:
     resource: "@GestionProjetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+back:
+    resource: "@BackBundle/Resources/config/routing.yml"
     prefix:   /
 
 article:
@@ -12,8 +12,12 @@ article:
     
 produit:
     resource: "@GestionProjetBundle/Resources/config/routing/produit.yml"
-    prefix:   /admin/produit    
+    prefix:   /produit    
 
-
+devis:
+    resource: "@GestionProjetBundle/Resources/config/routing/devi.yml"
+    prefix:   /devi 
+    
+   
 
     

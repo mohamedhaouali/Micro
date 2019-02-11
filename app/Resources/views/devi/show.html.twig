@@ -1,0 +1,106 @@
+{% extends "BackBundle::base.html.twig" %}
+
+
+{% block A %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Listes Des Devis</p>
+            <div class="list-group">
+                
+                <a href="{{path('devi_modifier')}}" class="list-group-item">Afficher</a>
+                <a href="{{path('devi_index')}}" class="list-group-item">Afficher</a>
+            
+               
+
+            </div>
+        </div>
+
+
+
+
+        <div class="col-md-9">
+            <h1>Article</h1>
+
+            <table class ="table table-striped" >
+                <tbody>
+               <tr>
+                <th>Id</th>
+                <td>{{ devi.id }}</td>
+            </tr>         
+                    
+         <tr>
+                <th>Nom</th>
+                <td>{{ devi.nom }}</td>
+            </tr>
+            <tr>
+                <th>Prenom</th>
+                <td>{{ devi.prenom }}</td>
+            </tr>
+           <tr>
+                <th>Raisonsociale</th>
+                <td>{{ devi.raisonsociale }}</td>
+            </tr>
+      
+             <tr>
+                <th>Matriculefiscale</th>
+                <td>{{ devi.matriculefiscale }}</td>
+            </tr> 
+        
+            <tr>
+                <th>Mail</th>
+                <td>{{ devi.mail }}</td>
+            </tr>
+             <tr>
+                <th>Telephone</th>
+                <td>{{ devi.telephone }}</td>
+            </tr>
+            <tr>
+                <th>Fax</th>
+                <td>{{ devi.fax }}</td>
+            </tr>
+            <tr>
+                <th>Adresse</th>
+                <td>{{ devi.adresse }}</td>
+            </tr>
+            
+            <tr>
+                <th>Sujet</th>
+                <td>{{ devi.sujet }}</td>
+            </tr>
+            
+              <tr>
+                <th>Produit</th>
+                <td>{{ devi.titre }}</td>
+            </tr>
+            
+ 
+                </tbody>
+            </table>
+
+            <ul>
+                <li>
+                    {#{ form_start(delete_form) }}
+                    <input type="submit" value="Delete">
+                    {{ form_end(delete_form) }#}
+                </li>
+            </ul>
+
+        </div>    
+    </div>
+{% endblock A %}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+{% extends "BackBundle::base.html.twig" %}
+
+
+{% block A %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Listes Des Produits</p>
+            <div class="list-group">
+                <a href="{{path('produit_new')}}" class="list-group-item">Ajouter</a>
+                <a href="{{path('produit_modifier')}}" class="list-group-item">Modifier</a>
+                <a href="{{path('produit_index')}}" class="list-group-item">Afficher</a>
+                
+
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <h1>Produit</h1>
+
+            <table class ="table table-striped" >
+                <tbody>
+
+
+                    <tr>
+                        <th>Id</th>
+                        <td>{{ produit.id }}</td>
+                    </tr>
+                 <tr>
+                <th>Titre</th>
+                <td>{{ produit.titre }}</td>
+            </tr>
+
+                </tbody>
+            </table>
+
+            <ul>
+                <li>
+                    {#{ form_start(delete_form) }}
+                    <input type="submit" value="Delete">
+                    {{ form_end(delete_form) }#}
+                </li>
+            </ul>
+
+        </div>    
+    </div>
+{% endblock A %}   
+
+
+
+
+
+

@@ -19,6 +19,8 @@ class AppKernel extends Kernel
             new myapp\BackBundle\BackBundle(),
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+           
+           
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

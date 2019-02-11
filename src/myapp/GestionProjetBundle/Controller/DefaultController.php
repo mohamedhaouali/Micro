@@ -4,8 +4,10 @@ namespace myapp\GestionProjetBundle\Controller;
 use myapp\GestionProjetBundle\Entity\Contact;
 use myapp\GestionProjetBundle\Form\ContactType;
 use Symfony\Component\HttpFoundation\Request;
-
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Session\Session;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 class DefaultController extends Controller
 {
@@ -101,5 +103,15 @@ class DefaultController extends Controller
         return $this->render('GestionProjetBundle:Default:contact.html.twig', array('form' => $form->createView()));
     }      
     
+        public function referenceAction()
+    {
+            
+        return $this->render('GestionProjetBundle:templates:reference.html.twig');
+    }  
     
+    
+
+   
+
+
 }

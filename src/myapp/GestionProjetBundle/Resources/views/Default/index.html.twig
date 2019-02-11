@@ -22,7 +22,11 @@
     <br>
     <br>
     <br>
-    
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('gestion_projet_homepage', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('gestion_projet_homepage', {'_locale' : 'en'}) }}">EN</a>
+</div> 
+
     
     <body>
 
@@ -85,25 +89,20 @@
     
                             <div class="col-md-7">
                                 <div class="intro-description">
-                                    <h2>Qui sommes-nous?</h2>
-                                    <p>
-                                        MicroSystem Solutions est une entreprise de conseil et services informatiques créé en 2005.
-                                     
-                                    </p>
-
+                                    <h2>{{ 'translate.link0'|trans }}</h2>
+                                    <p> {{ 'translate.link1'|trans }} </p>
                                     <ul class="points">
                                         <li>
                                             <span>
                                                 <i class="fa fa-star"></i>
                                             </span>
-                                            Elle est spécialise dans la conception et le developpement de logiciels
-                                            ,de sites et d'application web sur mesure
+                                            {{ 'translate.link2'|trans }}
                                         </li>
                                         <li>
                                             <span>
                                                 <i class="fa fa-star"></i>
                                             </span>
-                                            Elle accompagne ses clients dans leur développement  grace a un suivi personnalisé.
+                                           {{ 'translate.link3'|trans }}
                                         </li>
                                    
                                       
@@ -111,11 +110,11 @@
                                     
                                               <a href="{{path('about')}}" class="btn btn-info">
                            
-                                             Nos Solutions
+                                              {{ 'translate.link4'|trans }}    
                                             </a> 
                                               
                                     <a href="{{path('service')}}" class="btn btn-primary">
-                                        services
+                                         {{ 'translate.link5'|trans }} 
                                     </a> <!-- /purchase button -->
                                 </div> <!-- end of /.intro-description -->
                             </div>
@@ -138,7 +137,7 @@
                                         </div>
                                     </div> <!--  end of /.feature-icon-box  -->
                                     <div class="feature-info">
-                                        <h3 class="feature-heading">Analyser ensemble vos besoins</h3>
+                                        <h3 class="feature-heading">{{ 'translate.link6'|trans }} </h3>
                                         
                                     </div> <!--   end of /.feature-info  -->
                                 </div> <!--  end of /.feature-content  -->
@@ -152,7 +151,7 @@
                                         </div>
                                     </div> <!--  end of /.feature-icon-box  -->
                                     <div class="feature-info">
-                                        <h3 class="feature-heading">Vous assister pour la rédaction du cahier du charges </h3>
+                                        <h3 class="feature-heading">{{ 'translate.link7'|trans }} </h3>
                                         
                                     </div> <!--   end of /.feature-info  -->
                                 </div> <!--  end of /.feature-content  -->
@@ -166,7 +165,7 @@
                                         </div>
                                     </div> <!--  end of /.feature-icon-box  -->
                                     <div class="feature-info">
-                                        <h3 class="feature-heading">Vous informer et vous conseiller sur les solutions existantes</h3>
+                                        <h3 class="feature-heading">{{ 'translate.link8'|trans }}</h3>
                                        
                                     </div> <!--   end of /.feature-info  -->
                                 </div> <!--  end of /.feature-content  -->
@@ -180,7 +179,7 @@
                                         </div>
                                     </div> <!--  end of /.feature-icon-box  -->
                                     <div class="feature-info">
-                                        <h3 class="feature-heading">Développer les applications répondant a vos besoins spécifiques</h3>
+                                        <h3 class="feature-heading">{{ 'translate.link9'|trans }}</h3>
                                         
                                     </div> <!--   end of /.feature-info  -->
                                     <br>
@@ -200,7 +199,7 @@
                                         </div>
                                     </div> <!--  end of /.feature-icon-box  -->
                                     <div class="feature-info">
-                                        <h3 class="feature-heading">Assurer la formation et le suivi de vos équipes sur les solutions développées</h3>
+                                        <h3 class="feature-heading">{{ 'translate.link10'|trans }}</h3>
                                         
                                     </div> <!--   end of /.feature-info  -->
                                     <br>
@@ -255,7 +254,8 @@
                                     <li><a href="{{path('acceuil')}}">Acceuil</a></li>
                                     <li><a href="{{path('about')}}">About</a></li>
                                     <li><a href="{{path('service')}}">Service</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>  
                                     <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
                                     <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
                                     <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
@@ -269,13 +269,13 @@
                             <h4>Logiciel Erp</h4>
                             <ul class="row footer-links">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('GestionComptable')}}">Comptoir -Gestion Commerciale</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
                                     <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
                                     <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">MS-Compta</a></li>
+                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
                                     <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
                                     <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
-                                  
+                                   
                                 </div>
 
                               
@@ -298,7 +298,7 @@
                             <div class="footer-address">
                                 <p>
                                     Adresse <br>
-                                    59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
                                     <br>
                              
                            

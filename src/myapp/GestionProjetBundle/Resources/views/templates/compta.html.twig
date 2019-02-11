@@ -18,10 +18,13 @@
 
 
         </head>
-
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('MS-Compta', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('MS-Compta', {'_locale' : 'en'}) }}">EN</a>
+</div> 
         <body>
             <div id="multiple-blog-page">
-             
+
 
 
                 <section class="blog-content">
@@ -33,28 +36,14 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h2 class="text-capitalize" style="color:#483D8B">Comptoir -Gestion commerciale </h2>
-                                        <h3 class="text-capitalize" style="color:#0000FF">Description Générale</h3>
+                                        <h2 class="text-capitalize" style="color:#483D8B">{{ 'translate.link31'|trans }} </h2>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link32'|trans }}</h3>
 
                                     </div>
-                                    
-                                        le logiciel comptoir assure le suivi et le contrôle de toutes les activités commerciales de l'entreprise.<br>
-                                        Il permet la réalisation des pièces comptables pour l'achat et la vente des produits et services:<br>
-                                        • bons de livraison ou facture d'achat<br>  •bons de livraisons <br>,factures<br> • offres de prix<br> • commandes client/fournisseur ,avoir,...)<br>
-                                        Outre la facturation et la gestion du stock en multi-depots,Comptoir permet de nombreuses analyses multicritères.<br>
-                                        • Il assure, avec son échéancier intègre le suivi du paiement des factures d'achat et de vente<br>
-                                        • Il permet également de calculer la marge bénéficiaire par article, par client ou pour opération bien 
-                                        détermine <br>
-                                        • II gère les commerciaux et calcule le chiffre d'affaires réalisé par  commercial <br>
-                                        • II S'agit d'un logiciel multiutilisateur pouvant fonctionner en réseau avec  génération dynamique 
-                                        des menus en fonction des profils des utilisateurs <br>
-                                        • Ses éditions sont exportables aux formats pdf et html<br>
-                                        • II est hautement sécurisé avec des comptes d'utilisateurs associés a des profils de gestion <br>
-                                        •Vous n'aurez plus besoin de papier entete,les pièces commerciales et les états sont édités avec
-                                        l'entete<br>
-                                        •le logo et les coordonnées de l'entreprise avec le modèle que vous choisissez.
 
-                                    
+                                    {{ 'translate.link33'|trans }}
+
+
 
 
                                 </article> <!-- /.blog-item -->
@@ -63,19 +52,14 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 style="color:#0000FF">Liste des fonctionnalités<h3>
-                                                <h3 class="text-capitalize" style="color:#0000FF">1-Gestion des articles </h3>
+                                        <h3 style="color:#0000FF">  {{ 'translate.link34'|trans }}</h3>
+                                                <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link35'|trans }}</h3>
 
                                                 </div>
-                                               
-                                                    Classement par famille et par marque d'articles.
-                                                    •	Informations comptables :
-                                                    Compte, Code,NGP,TVA <br>
-                                                    •	Coefficient de marge par article <br>
-                                                    •	Statistiques de vente et d'approvisionnement par article <br>
-                                                    •	Mise en sommeil de l'article <br>
 
-                                              
+                                       {{ 'translate.link36'|trans }} 
+
+
 
 
                                                 </article> <!-- /.blog-item -->
@@ -84,19 +68,14 @@
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">2-Gestion des fournisseurs  </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link37'|trans }}   </h3>
 
                                                     </div>
-                                                  
-                                                        •Gestion des coordonnées et des informations légales du fournisseur 
-                                                        (Adresse, téléphone,fax,email,Matricule fiscal...)<br>
-                                                        •Famille de fournisseurs <br>
-                                                        •Calcul de l'encours: les bons de livraisons non facturés et les factures non réglées <br>
-                                                        •Edition de la fiche fournisseur, par facture ou par article qui résume <br>
-                                                        les différentes opérations effectuées avec la fournisseur encours pour une période donnée
+
+                                                    {{ 'translate.link38'|trans }}
 
 
-                                                    
+
 
 
                                                 </article> <!-- /.blog-item -->
@@ -104,58 +83,43 @@
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">3-Gestion des clients  </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link39'|trans }}  </h3>
 
                                                     </div>
-                                                  
-                                                        •Gestion des coordonnées et des informations légales du client (Adresse,télephones,fax,émail,matricule fiscal,...)<br>
-                                                        •Nombre illimité de contact <br>
-                                                        •Gestion des grilles de remise et des modes de règlement <br>
-                                                        •Grille tarifaire et tarif exceptionnel par client ou famille de clients<br>
-                                                        •Recalcul de l'encours  en temps réel (bon de livraison non facturés
-                                                           et factures non réglées <br>
-                                                        •Edition de la fiche client par facture ou par article <br>
-                                                        •Gestion  de la TVA particulière (majoration de la TVA, exonération....) 
+
+                                                   {{ 'translate.link40'|trans }}
 
 
 
-                                                  
+
 
 
                                                 </article> <!-- /.blog-item -->
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">4-Gestion des achats   </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link41'|trans }}   </h3>
 
                                                     </div>
-                                                    
-                                                        •Gestion complète de la chaine des achats (commandes fournisseurs; bon de livraison, factures, factures périodiques) <br>
-                                                        •Mise a jour en temps réel du stock <br>
-                                                        •Prise en considération des remises attribuées par le fournisseur <br>
+                                                    {{ 'translate.link42'|trans }}
+                                                  
 
-                                                   
+
 
 
                                                 </article> <!-- /.blog-item -->                        
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">5-Gestion des ventes   </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link43'|trans }}
+                                                    </h3>
 
                                                     </div>
-                                                   
-                                                        •	Gestion complète du cycle des ventes (offre de prix, commandes client, bon de livraison ,fiches d'interventions, factures, avoir ,....)<br>
-                                                        •	Message d'avertissement si vente a perte et sur les articles en rupture du stock <br>
-                                                        •	Gestion des grilles de remise et tarifaires globales ou par article <br>
-                                                        •	Transformation d'une offre de prix en une commande client ou un bon de livraison  <br>
-                                                        •	Gestion de portefeuilles d'offres de prix et de commandes clients  <br>
-                                                                ou un bon de livraison et d'une commande client en un bon de livraison <br>
-                                                        •	Mise a jour du stock en temps réel <br>
-                                                        •	Calcul automatique de la marge bénéficiaire  <br>
+
+                                                  {{ 'translate.link44'|trans }}
 
 
-                                                  
+
 
 
                                                 </article> <!-- /.blog-item -->     
@@ -163,18 +127,12 @@
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">6-Gestion des stocks    </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link45'|trans }}   </h3>
 
                                                     </div>
-                                                   
-                                                        •	Bon de sotie/Bon d'entrée <br>
-                                                        •	Valorisation du stock au prix moyen pondéré ou dernier prix du revient <br>
-                                                        •	Impression des mouvements du stock, état du stock ,disponibilité des articles, réapprovisionnement <br>
-                                                        •	Nombre illimité de dépôts avec dépôt principal <br>
-                                                        •	Gestion des stocks par dépôt
+                                                {{ 'translate.link46'|trans }}
+                                                 
 
-
-                                                   
 
 
                                                 </article> <!-- /.blog-item -->                                
@@ -184,20 +142,14 @@
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">7-Gestion commerciaux   </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link47'|trans }} </h3>
 
                                                     </div> 
-                                                   
-                                                        •	Fiche individuelle :coordonnées complètes(adresse,télephones,fax,email,...) <br>
-                                                        •	Définition des règles de calcul des commissions <br>
-                                                        •	Gestion du compte du commercial :affichage par liste des clients par secteur  <br>
-                                                        •	Chiffre d'affaires réalise par mois <br>
-                                                        •	Etat des commissions par commercial  <br>
-                                                        •	Encours global du commercial <br>
-                                                        •	Compte rendu mensuel par chiffre d'affaires HT et TTC <br>
+
+                                                
+{{ 'translate.link48'|trans }}
 
 
-                                                  
 
 
                                                 </article> <!-- /.blog-item -->                                
@@ -205,54 +157,51 @@
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">8-Gestion Gestion des  règlements et échéancier    </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link49'|trans }} </h3>
 
                                                     </div>
-                                                  
-                                                        •	Gestion des règlements  client fournisseur avec mémorisation des conditions (modes de règlement ,délai ,conditions commerciales....)<br>
-                                                        •	Règlement unitaire (par facture),partiel ou global (plusieurs factures en même temps)<br>
-                                                        •	Gestion des écarts de règlement <br>
-                                                        •	Impression de l'échéancier pour  une période demandée <br>
-
-
+{{ 'translate.link50'|trans }}
                                                    
 
 
-                                                </article> <!-- /.blog-item -->     
-                                                <article class="blog-item">
-
-                                                    <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">9-Transfert comptable   </h3>
-
-                                                    </div>
-                                                  
-                                                        •	Transfert des données en comptabilité sans aucune ressaisie <br>
-                                                        •	Impression automatique de la déclaration mensuelle des impôts <br>
-                                                        •	Impression des journaux <br>
 
 
-                                                    
 
                                                 </article> <!-- /.blog-item -->     
                                                 <article class="blog-item">
 
                                                     <div class="blog-heading">
-                                                        <h3 class="text-capitalize" style="color:#0000FF">   10-Editions et statistiques </h3>
+                                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link51'|trans }} </h3>
 
                                                     </div>
-                                                  
-                                                        •Edition de la liste des prix générale par famille et/ou par marque <br>
-                                                        •Inventaire du stock général par famille et/ou par marque <br>
-                                                        •Suivi des bons de livraison non facturés  <br>
-                                                        •Détail des factures selon le mode de règlement <br>
-                                                        •Répartition du chiffre d'affaires par client et/ou  par article <br>
-                                                        •Répartition de la marge bénéficiaire par client et/ou  par article <br>
-                                                        •Volume des achats <br>
-                                                        •Comparaison du chiffre d'affaires réalisé sur toute l'année ou pour
-                                                        une période donnée
+
+                                                   {{ 'translate.link52'|trans }}
 
 
-                                                  
+
+
+                                                </article> <!-- /.blog-item -->     
+                                                <article class="blog-item">
+
+                                                    <div class="blog-heading">
+                                                        <h3 class="text-capitalize" style="color:#0000FF">   {{ 'translate.link53'|trans }} </h3>
+
+                                                    </div>
+                                              {{ 'translate.link54'|trans }}
+                                              
+                                              <br>     
+                                              
+                                              
+                                                 
+ <h3 class="text-capitalize" style="color:#483D8B"> Pour telecharger la version pdf du comptoir </h3> <br>
+
+ Cliquer sur ce lien <br><br>
+ 
+ 
+ <p><a href="{{asset('templates/images/Comptoir.pdf')}}">telecharger la version pdf du comptoir</a></p>
+ 
+ 
+
 
 
                                                 </article> <!-- /.blog-item -->                                 
@@ -267,137 +216,141 @@
                                                 </section>
 
 
-                                                <footer>
-                                                    <div class="container">
-                                                        <div class="row">
+        <footer>
+                <div class="container">
+                    <div class="row">
 
-                                                            <!-- useful links -->
-                                                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                                                <h4>Liens</h4>
-                                                                <ul class="row footer-links">
-                                                                    <div class="col-md-6 col-sm-6 col-xs-6">
-                                                                        <li><a href="{{path('acceuil')}}">Acceuil</a></li>
-                                                                        <li><a href="{{path('about')}}">About</a></li>
-                                                                        <li><a href="{{path('service')}}">Service</a></li>
-                                                                        <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
-                                                                         <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                                                                         <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                                                                        <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
-                                                                    </div>
-
-
-                                                                </ul>
-                                                            </div>
-                                                                    
-                                                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Logiciel Erp</h4>
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link155'|trans }}</h4>
                             <ul class="row footer-links">
-                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                </div>
+
+                              
+                            </ul>
+                        </div>
+                                
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link156'|trans }}</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
                                     <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
                                     <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
-                                    <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
+                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
                                    
                                 </div>
 
                               
                             </ul>
-                        </div>                    
-                                                                    
+                        </div>        
+                                
 
-                                                            <!-- recent news -->
+                        <!-- recent news -->
+             
 
+                        <!-- news-letter -->
+                  
 
-                                                            <!-- news-letter -->
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>MicroSystem Solutions </h4>
 
+                         
 
-                                                            <!-- about avada agency -->
-                                                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                                                <h4>MicroSystem Solutions </h4>
+                            <div class="footer-address">
+                                <p>
+                                    {{ 'translate.link162'|trans }} <br>
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
 
+                         
 
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
+                        
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
 
-                                                                <div class="footer-address">
-                                                                    <p>
-                                                                        Adresse <br>
-                                                                        59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
-                                                                        <br>
+                         
 
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
+                    </div>
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
+                            <a href="#">
+                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
 
+                    </div><!-- /.navbar-header -->
 
-                                                                </div>
-
-
-                                                            </div> <!-- /.footer-widget -->
-
-                                                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-
-
-                                                                <div class="footer-address">
-
-                                                                    <p> Email <br>
-                                                                        microsysteme@gnet.tn
-                                                                    </p>
-
-
-                                                                </div>
-
-
-                                                            </div>
-
-                                                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-
-
-
-
-                                                                <div class="footer-address">
-
-
-                                                                    <p> Tél 
-                                                                        <br>  
-                                                                        (+216) 79 391 087 <br>
-                                                                        (+216) 79 391 088 
-                                                                    </p>
-                                                                    <p>   Fax
-
-                                                                        +216 79 391 056
-
-
-                                                                    </p>
-
-                                                                </div>
-
-
-                                                            </div> 
-
-
-                                                        </div>
-
-                                                        <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                                                            <div class="container">
-
-                                                                <div class="navbar-header">
-
-                                                                    <!-- navbar logo -->
-                                                                    <div class="navbar-brand">
-
-                                                                        <a href="#">
-                                                                            @2018 All Rights Reserved. Designed by MicroSystem Solutions
-                                                                        </a>
-                                                                    </div>
-                                                                    <!-- navbar logo -->
-
-                                                                </div><!-- /.navbar-header -->
-
-                                                                <!-- nav links -->
-
-                                                            </div><!-- /.container -->
-                                                        </nav>
-
-                                                    </div>
-                                                </footer>
+                    <!-- nav links -->
+                     
+                </div><!-- /.container -->
+            </nav>
+                                
+                </div>
+            </footer>                          
 
                                                 </div> <!-- end of /#home-page -->
 

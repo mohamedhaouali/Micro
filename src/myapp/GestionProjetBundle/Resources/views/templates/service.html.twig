@@ -13,7 +13,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     </head>
-
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('service', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('service', {'_locale' : 'en'}) }}">EN</a>
+</div> 
     <body>
         <div id="service-page">
 
@@ -27,7 +30,7 @@
                         <div class="headline text-center">
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3">
-                                    <h2 class="section-title">CE QUE NOUS FAISONS</h2>
+                                    <h2 class="section-title">{{ 'translate.link18'|trans }}</h2>
                                  
                                 </div>
                             </div>
@@ -44,7 +47,7 @@
                                             </div>
                                         </div> <!--  end of .service-icon-box  -->
                                         <div class="service-info">
-                                            <h3 class="service-heading">Maintenance et entretien de matriél</h3>
+                                            <h3 class="service-heading">{{ 'translate.link19'|trans }}</h3>
                                             
                                         </div> <!--   end of .service-info  -->
                                     </div> <!--  end of .service-content  -->
@@ -58,7 +61,7 @@
                                             </div>
                                         </div> <!--  end of .service-icon-box  -->
                                         <div class="service-info">
-                                            <h3 class="service-heading">Formation sur les outils informatiques</h3>
+                                            <h3 class="service-heading">{{ 'translate.link20'|trans }}</h3>
                                           
                                         </div> <!--   end of .service-info  -->
                                     </div> <!--  end of .service-content  -->
@@ -72,7 +75,7 @@
                                             </div>
                                         </div> <!--  end of .service-icon-box  -->
                                         <div class="service-info">
-                                            <h3 class="service-heading">Assistance et conseil en informatique</h3>
+                                            <h3 class="service-heading">{{ 'translate.link21'|trans }}</h3>
                                            
                                         </div> <!--   end of .service-info  -->
                                     </div> <!--  end of .service-content  -->
@@ -86,7 +89,7 @@
                                             </div>
                                         </div> <!--  end of .service-icon-box  -->
                                         <div class="service-info">
-                                            <h3 class="service-heading">Formation sur les outils informatiques</h3>
+                                            <h3 class="service-heading">{{ 'translate.link22'|trans }}</h3>
                                            
                                         </div> <!--   end of .service-info  -->
                                     </div> <!--  end of .service-content  -->
@@ -100,7 +103,7 @@
                                             </div>
                                         </div> <!--  end of .service-icon-box  -->
                                         <div class="service-info">
-                                            <h3 class="service-heading">Conception et développement d'applications</h3>
+                                            <h3 class="service-heading">{{ 'translate.link23'|trans }}</h3>
                                           
                                         </div> <!--   end of .service-info  -->
                                     </div> <!--  end of .service-content  -->
@@ -114,7 +117,7 @@
                                             </div>
                                         </div> <!--  end of .service-icon-box  -->
                                         <div class="service-info">
-                                            <h3 class="service-heading">Vente de matériel et accesoires informatiques </h3>
+                                            <h3 class="service-heading">{{ 'translate.link24'|trans }} </h3>
                                            
                                         </div> <!--   end of .service-info  -->
                                     </div> <!--  end of .service-content  -->
@@ -138,21 +141,23 @@
             </div> <!--  end of .main-content  -->
 
 
-            <footer>
+          <footer>
                 <div class="container">
                     <div class="row">
 
                         <!-- useful links -->
                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Liens</h4>
+                            <h4>{{ 'translate.link155'|trans }}</h4>
                             <ul class="row footer-links">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('acceuil')}}">Acceuil</a></li>
-                                    <li><a href="{{path('about')}}">About</a></li>
+                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
                                     <li><a href="{{path('service')}}">Service</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
                                     <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
                                     <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
                                     <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
                                 </div>
 
@@ -160,22 +165,22 @@
                             </ul>
                         </div>
                                 
-                  <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Logiciel Erp</h4>
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link156'|trans }}</h4>
                             <ul class="row footer-links">
-                               <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
                                     <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
                                     <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
-                                    <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
+                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
                                    
                                 </div>
 
                               
                             </ul>
-                        </div>                        
+                        </div>        
                                 
 
                         <!-- recent news -->
@@ -192,10 +197,12 @@
 
                             <div class="footer-address">
                                 <p>
-                                    Adresse <br>
-                                    59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
+                                    {{ 'translate.link162'|trans }} <br>
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
                                     <br>
-                                                                                       
+                             
+                           
+                                
                             </div>
                           
                        
@@ -203,7 +210,9 @@
                          
                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
                            
-                        
+
+                         
+
                             <div class="footer-address">
                               
                                 <p> Email <br>
@@ -213,9 +222,13 @@
                                 
                             </div>
                           
+                       
                         </div>
                         
-                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">                                         
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
 
                             <div class="footer-address">
                               
@@ -229,6 +242,7 @@
                                     
                                     +216 79 391 056
                                     
+                             
                                 </p>
                                 
                             </div>

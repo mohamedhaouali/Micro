@@ -1,0 +1,370 @@
+<?php
+
+namespace myapp\GestionProjetBundle\Entity;
+use Symfony\Component\Validator\Constraints\MinLength;
+use Symfony\Component\Validator\Constraints\MaxLength;
+use Symfony\Component\Validator\Constraints as Assert;
+
+
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Devi
+ *
+ * @ORM\Table(name="devi")
+ * @ORM\Entity(repositoryClass="myapp\GestionProjetBundle\Repository\DeviRepository")
+ */
+class Devi
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="raisonsociale", type="string", length=255)
+     */
+    private $raisonsociale;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="sujet", type="text")
+     */
+    private $sujet;
+
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", length=255)
+     * 
+     *  * * *
+     * @Assert\NotBlank(message="entrer votre nom.", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=30,
+     *     minMessage="Le titre est trop court.",
+                           
+     *     maxMessage="le titre est trop  long.",
+     *     
+     * )
+     */
+    
+    private $nom;
+
+ /**
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", length=255)
+     * 
+     *  * * *
+     * @Assert\NotBlank(message="entrer votre nom.", groups={"Registration", "Profile"})
+     * @Assert\Length(
+     *     min=3,
+     *     max=30,
+     *     minMessage="Le titre est trop court.",
+                           
+     *     maxMessage="le titre est trop  long.",
+     *     
+     * )
+     */
+    private $prenom;
+
+   
+    
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="mail", type="string", length=255)
+     * 
+     *  @Assert\NotBlank(message="entrer votre mail.", groups={"Registration", "Profile"})
+     * @Assert\Email(
+     *     message = "The email '{{ value }}' is not a valid email.",
+     *     checkMX = true
+     * )
+     */
+    private $mail;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telephone", type="string", length=255)
+     */
+    private $telephone;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="fax", type="string", length=255)
+     */
+    private $fax;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="adresse", type="string", length=255)
+     */
+    private $adresse;
+
+ 
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="matriculefiscale", type="string", length=255)
+     */
+    private $matriculefiscale;
+
+ /**
+   * @ORM\ManyToOne(targetEntity="Produit", cascade={"remove"})
+   * @ORM\JoinColumn(name="produit_id", referencedColumnName="id", onDelete="SET NULL")}
+   * @Assert\NotBlank()
+    */
+    
+     private $titre;
+   
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+ 
+
+  
+
+    /**
+     * Set raisonsociale
+     *
+     * @param string $raisonsociale
+     *
+     * @return Devi
+     */
+    public function setRaisonsociale($raisonsociale)
+    {
+        $this->raisonsociale = $raisonsociale;
+
+        return $this;
+    }
+
+    /**
+     * Get raisonsociale
+     *
+     * @return string
+     */
+    public function getRaisonsociale()
+    {
+        return $this->raisonsociale;
+    }
+
+    /**
+     * Set sujet
+     *
+     * @param string $sujet
+     *
+     * @return Devi
+     */
+    public function setSujet($sujet)
+    {
+        $this->sujet = $sujet;
+
+        return $this;
+    }
+
+    /**
+     * Get sujet
+     *
+     * @return string
+     */
+    public function getSujet()
+    {
+        return $this->sujet;
+    }
+
+    /**
+     * Set nom
+     *
+     * @param string $nom
+     *
+     * @return Devi
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+
+        return $this;
+    }
+
+    /**
+     * Get nom
+     *
+     * @return string
+     */
+    public function getNom()
+    {
+        return $this->nom;
+    }
+
+    /**
+     * Set prenom
+     *
+     * @param string $prenom
+     *
+     * @return Devi
+     */
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+
+        return $this;
+    }
+
+    /**
+     * Get prenom
+     *
+     * @return string
+     */
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
+
+    /**
+     * Set mail
+     *
+     * @param string $mail
+     *
+     * @return Devi
+     */
+    public function setMail($mail)
+    {
+        $this->mail = $mail;
+
+        return $this;
+    }
+
+    /**
+     * Get mail
+     *
+     * @return string
+     */
+    public function getMail()
+    {
+        return $this->mail;
+    }
+
+    /**
+     * Set telephone
+     *
+     * @param string $telephone
+     *
+     * @return Devi
+     */
+    public function setTelephone($telephone)
+    {
+        $this->telephone = $telephone;
+
+        return $this;
+    }
+
+    /**
+     * Get telephone
+     *
+     * @return string
+     */
+    public function getTelephone()
+    {
+        return $this->telephone;
+    }
+
+    /**
+     * Set fax
+     *
+     * @param string $fax
+     *
+     * @return Devi
+     */
+    public function setFax($fax)
+    {
+        $this->fax = $fax;
+
+        return $this;
+    }
+
+    /**
+     * Get fax
+     *
+     * @return string
+     */
+    public function getFax()
+    {
+        return $this->fax;
+    }
+
+    /**
+     * Set adresse
+     *
+     * @param string $adresse
+     *
+     * @return Devi
+     */
+    public function setAdresse($adresse)
+    {
+        $this->adresse = $adresse;
+
+        return $this;
+    }
+
+    /**
+     * Get adresse
+     *
+     * @return string
+     */
+    public function getAdresse()
+    {
+        return $this->adresse;
+    }
+
+
+
+
+
+    /**
+     * Set matriculefiscale
+     *
+     * @param string $matriculefiscale
+     *
+     * @return Devi
+     */
+    public function setMatriculefiscale($matriculefiscale)
+    {
+        $this->matriculefiscale = $matriculefiscale;
+
+        return $this;
+    }
+
+    /**
+     * Get matriculefiscale
+     *
+     * @return string
+     */
+    public function getMatriculefiscale()
+    {
+        return $this->matriculefiscale;
+    }
+}

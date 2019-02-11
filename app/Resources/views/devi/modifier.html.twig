@@ -1,0 +1,74 @@
+{% extends "BackBundle::base.html.twig" %}
+
+{% block A %}
+    <div class="row">
+
+        <div class="col-md-3">
+            <p class="lead">Listes Des Devis</p>
+            <div class="list-group">
+               
+                <a href="{{path('devi_modifier')}}" class="list-group-item">Afficher</a>
+                <a href="{{path('devi_index')}}" class="list-group-item">Afficher</a>
+            
+               
+
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <table class ="table table-striped">
+                <thead>
+        <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prenom</th>
+                <th>Raisonsociale</th>
+                <th>Matriculefiscale</th>
+                <th>Mail</th>
+                <th>Telephone</th>
+                <th>Fax</th>
+                <th>Adresse</th>
+                <th>Produit</th>
+                <th>Sujet</th>
+                <th>Actions</th>
+        </tr>
+                </thead>
+                <tbody>
+                    {% for devi in devis %}
+                        <tr>
+
+                <td><a href="{{ path('devi_show', { 'id': devi.id }) }}">{{ devi.id }}</a></td>
+               
+                <td>{{ devi.nom }}</td>
+                <td>{{ devi.prenom }}</td>
+                <td>{{ devi.raisonsociale }}</td>
+                <td>{{ devi.matriculefiscale }}</td>
+                <td>{{ devi.mail }}</td>
+                <td>{{ devi.telephone }}</td>
+                <td>{{ devi.fax }}</td>
+                <td>{{ devi.adresse }}</td>
+                <td>{{ devi.titre }}</td>
+                <td>{{ devi.sujet }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('devi_show', { 'id': devi.id }) }}"class="btn btn-info" ><span class="glyphicon glyphicon-edit"></span>Afficher</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('devi_edit', { 'id': devi.id }) }}"class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> supprimer</a>
+                        </li>
+                    </ul>
+                </td>
+
+
+   
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+
+
+        </div>    
+    </div>
+{% endblock A %}  

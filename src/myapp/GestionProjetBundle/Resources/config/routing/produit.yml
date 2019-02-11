@@ -12,6 +12,7 @@ produit_new:
     path:     /new
     defaults: { _controller: "GestionProjetBundle:Produit:new" }
     methods:  [GET, POST]
+   
 
 produit_edit:
     path:     /{id}/edit
@@ -22,12 +23,7 @@ produit_delete:
     path:     /{id}/delete
     defaults: { _controller: "GestionProjetBundle:Produit:delete" }
     methods:  DELETE
-
+    
 produit_modifier:
     path:     /modifier
-    defaults: { _controller: "GestionProjetBundle:Produit:modifier" }
-    
-
-produit_recherche:
-    path:     /recherche
-    defaults: { _controller: "GestionProjetBundle:Produit:recherche" }  
+    defaults: { _controller: "GestionProjetBundle:Produit:modifier" }     

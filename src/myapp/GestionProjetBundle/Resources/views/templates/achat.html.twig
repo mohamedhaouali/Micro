@@ -18,7 +18,10 @@
 
 
         </head>
-
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('MS-Achat', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('MS-Achat', {'_locale' : 'en'}) }}">EN</a>
+</div> 
         <body>
             <div id="multiple-blog-page">
 
@@ -31,21 +34,14 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#483D8B">MS-Achat – Gestion
-                                            achats et des n des approvisionnementsPour une gestion optimale du processus d’approvisionnement de votre entreprise
+                                        <h3 class="text-capitalize" style="color:#483D8B"> {{ 'translate.link60'|trans }}
 
                                         </h3>
-                                        <h3 class="text-capitalize" style="color:#0000FF">Description Générale</h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link32'|trans }}</h3>
 
                                     </div>
-                                 
-                                        MS-ACHAT automatise le processus d’approvisionnement depuis l’expression des besoins jusqu’à la
-                                        réception de la marchandise et la mise à jour des stocks<br> Il prend en considération les différents
-                                        intervenants avec les natures des actions possibles (consultation, modification, suppression,
-                                        validation, annulation, clôture
-
-                                   
-
+                                     {{ 'translate.link61'|trans }}
+                                        
 
                                 </article> <!-- /.blog-item -->
 
@@ -53,16 +49,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">1- Présentation de MS-Achat </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link62'|trans }}</h3>
 
                                     </div>
-                                  
-                                        	Prise en considération du budget alloué ;<br>
-                                        	Gain en temps : avec la possibilité de transformer les demandes d’achat en bon de livraison et/ou en bon de commande fournisseur ; ou transformer une offre de prix en un bon de commande.<br>
-                                        	Consultation en temps réel du stock disponible, avec les commandes encours.<br>
-
-                                        MS-ACHAT offre en standard personnalisable une automatisation des obligations réglementaires afin de simplifier le processus. Avec sa gestion de Workflow intégrée, MS-Achat réduit la montée en charge organisationnelle (saisie des demandes d’achat, saisie des bons de commandes fournisseurs, suivi de l’état des commandes, …)
-
+                                  {{ 'translate.link63'|trans }}
+                                        
 
                                  
 
@@ -73,18 +64,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">2-Une solution évolutive & personnalisable  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link64'|trans }}  </h3>
 
                                     </div>
                                   
-                                        	Les données du module MS-ACHAT sont paramétrables : liste des pays, banques, taux de TVA, dépôts, natures d’articles, familles de fournisseurs, fournisseurs, civilités,… <br>
-
-                                        	Paramétrage de la codification des articles :	par	famille/sous-famille, numérotation automatique,… <br>
-
-
-                                        	Paramétrage de la      codification des fournisseurs : selon le code comptable en vigueur <br>
-                                        	Personnalisation des fiches articles et des fiches fournisseurs par des champs libres<br>
-                                        	Classification des fournisseurs par famille, par natures d’articles, par civilité,…<br>
+                                      {{ 'translate.link65'|trans }}
 
                                    
 
@@ -93,19 +77,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">3-Fonctionnalités  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link66'|trans }}  </h3>
 
                                     </div>
-                                  
-                                        	Suivi des demandes d’achats internes par structure depuis la création de la demande jusqu’à la livraison de la marchandise, tout en prenant en considération les étapes de validation par les supérieurs hiérarchiques, les magasiniers <br>
-                                        	Suivi des livraisons internes et mise à jour des stocks <br>
-                                        	Suivi des offres de prix et édition du tableau comparatif des prix <br>
-                                        	Possibilité de transformation d’une offre de prix en un bon de commande <br>
-                                        	Suivi du cycle de vie d’un bon de commande depuis la création jusqu’à la clôture et des réceptions correspondantes <br>
-                                        	Prise en considération des livraisons partielles <br>
-                                        	Suivi de la facturation fournisseur <br>
-                                        	Ajustement des factures <br>
-                                        	Suivi des délais de livraisons et des retards, avec prise en considération de la pénalité<br>
+                                  {{ 'translate.link67'|trans }}
+                                 
 
                                   
 
@@ -113,16 +89,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">4-	Analyse multidirectionnelles & éditions paramétrables  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link68'|trans }}  </h3>
 
                                     </div>
-                                   
-                                        	Edition du journal des achats selon des critères personnalisables (famille, fournisseurs, articles,…)<br>
-                                        	Edition des états récapitulatifs des achats <br>
-                                        	Analyse multiaxes de l’évolution de la consommation<br>
-                                        	Edition des journaux de livraison <br>
-                                        	Edition des états récapitulatifs des factures<br>
-                                        	Autres états et éditions suivant les besoins de l’utilisateurs<br>
+                                  {{ 'translate.link69'|trans }} 
+                         
 
                                    
 
@@ -130,12 +101,16 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">5-Interopérabilité  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">  {{ 'translate.link70'|trans }}  </h3>
 
                                     </div>
-                                 
-                                        MS-Achat s’interface automatiquement avec les différents modules de MS-ERP, tels que le module
-                                        de gestion des ventes, le module de gestion budgétaire, le module de gestion comptable (analytique, tiers, …).
+                                 {{ 'translate.link71'|trans }}
+ <h3 class="text-capitalize" style="color:#483D8B"> Pour telecharger la version pdf du Achat </h3> <br>
+
+Cliquer sur ce lien <br><br>
+ 
+ 
+<p><a href="{{asset('templates/images/Achat.pdf')}}">telecharger la version pdf du Achat</a></p>                                      
 
                                   
 
@@ -150,120 +125,141 @@
                     </div>
                 </section>
 
-                <footer>
-                    <div class="container">
-                        <div class="row">
+             <footer>
+                <div class="container">
+                    <div class="row">
 
-                            <!-- useful links -->
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                <h4>Liens</h4>
-                                <ul class="row footer-links">
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
-                                        <li><a href="{{path('acceuil')}}">Acceuil</a></li>
-                                        <li><a href="{{path('about')}}">About</a></li>
-                                        <li><a href="{{path('service')}}">Service</a></li>
-                                        <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
-                                        <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                                        <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                                        <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
-                                    </div>
-
-
-                                </ul>
-                            </div>
-                                    
-                           <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Logiciel Erp</h4>
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link155'|trans }}</h4>
                             <ul class="row footer-links">
-                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
-                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
-                                    <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
-                                 
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
                                 </div>
 
                               
                             </ul>
-                        </div>                   
-                                    
-
-                            <!-- recent news -->
-
-
-                            <!-- news-letter -->
-
-
-                            <!-- about avada agency -->
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                <h4>MicroSystem Solutions </h4>
-
-                                <div class="footer-address">
-                                    <p>
-                                        Adresse <br>
-                                        59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
-                                        <br>
-                                </div>
-
-
-                            </div> <!-- /.footer-widget -->
-
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                <div class="footer-address">
-
-                                    <p> Email <br>
-                                        microsysteme@gnet.tn
-                                    </p>
-
-
-                                </div>
-
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                <div class="footer-address">
-
-
-                                    <p> Tél 
-                                        <br>  
-                                        (+216) 79 391 087 <br>
-                                        (+216) 79 391 088 
-                                    </p>
-                                    <p>   Fax
-
-                                        +216 79 391 056
-                                    </p>
-
-                                </div>
-                            </div> 
                         </div>
+                                
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link156'|trans }}</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+                                   
+                                </div>
 
-                        <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                            <div class="container">
+                              
+                            </ul>
+                        </div>        
+                                
 
-                                <div class="navbar-header">
+                        <!-- recent news -->
+             
 
-                                    <!-- navbar logo -->
-                                    <div class="navbar-brand">
+                        <!-- news-letter -->
+                  
 
-                                        <a href="#">
-                                            @2018 All Rights Reserved. Designed by MicroSystem Solutions
-                                        </a>
-                                    </div>
-                                    <!-- navbar logo -->
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>MicroSystem Solutions </h4>
 
-                                </div><!-- /.navbar-header -->
+                         
 
-                                <!-- nav links -->
+                            <div class="footer-address">
+                                <p>
+                                    {{ 'translate.link162'|trans }} <br>
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
 
-                            </div><!-- /.container -->
-                        </nav>
+                         
 
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
+                        
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
                     </div>
-                </footer>
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
+                            <a href="#">
+                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                     
+                </div><!-- /.container -->
+            </nav>
+                                
+                </div>
+            </footer>
 
                 <!-- footer-navigation end -->
 

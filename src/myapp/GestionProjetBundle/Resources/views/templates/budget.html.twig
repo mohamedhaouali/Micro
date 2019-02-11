@@ -20,7 +20,10 @@
 
 
         </head>
-
+<div id="choisir_langue">Choisir la langue :
+    <a href="{{ path('MS-Budget', {'_locale' : 'fr'}) }}">FR</a> |
+    <a href="{{ path('MS-Budget', {'_locale' : 'en'}) }}">EN</a>
+</div> 
         <body>
             <div id="multiple-blog-page">
 
@@ -34,16 +37,13 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#483D8B">MS-Budget – Gestion budgétaire & contrôle de gestion
-                                            Pour une gestion simple et efficace de votre Budget
+                                        <h3 class="text-capitalize" style="color:#483D8B">  {{ 'translate.link100'|trans }}
                                         </h3> 
-                                        <h3 class="text-capitalize" style="color:#0000FF">Description Générale</h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link101'|trans }}</h3>
 
                                     </div>
-                                  
-                                        Afin d’assurer sa pérennité, l’entreprise tunisienne doit se doter d’outils efficaces, dont l’outil budgétaire.<br> En effet, ce dernier permet de réaliser des contrôles et des prévisions aidant les dirigeants à prendre leurs décisions.
-
-                                    
+                                  {{ 'translate.link102'|trans }}
+                                      
 
                                 </article> <!-- /.blog-item -->
 
@@ -51,17 +51,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">1-Présentation de MS-Budget </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link103'|trans }} </h3>
 
                                     </div>
-                                   
-                                        Les entreprises tunisiennes sont souvent soucieuses de bien gérer leur budget et de bien contrôler la
-                                        réalisation en temps réel. <br> Cependant, les intervenants du processus budgétaires sont nombreux et les besoins des uns et des autres sont fort différents.<br>
-
-                                        C’est dans ce cadre que s’inscrit le logiciel MS- Budget qui offre aux entreprises une solution évolutive fiable et flexible pour la maîtrise des enjeux de leur gestion
-                                        budgétaire.<br> L’entreprise dispose ainsi d’une vision précise sur son budget avec les possibilités d’investissement et des dépenses diverses.<br>
-                                        MS-Budget offre en standard personnalisable une automatisation des obligations réglementaires afin de simplifier le processus.<br> Avec sa gestion de Workflow intégrée, MS-Budget réduit la montée en charge organisationnelle (saisie des demandes de demandes de budget, saisie décentralisée des engagements, …)
-
+                                   {{ 'translate.link104'|trans }}
+                                        
 
                                    
 
@@ -71,24 +65,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">2-Paramétrage selon la réglementation en vigueur  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link105'|trans }}</h3>
 
                                     </div>
-                                  
-                                        MS-Budget est la solution la plus adaptée
-                                        aux besoins de votre entreprise.<br> Elle assure une gestion, en parallèle, des budgets d’exploitation et d’investissement.<br>
-
-                                        les données de base du module de gestion budgétaire sont paramétrables selon le besoin de l’utilisateur, en prenant en considération la réglementation en vigueur <br>
-
-                                        MS-Budget convient aussi bien aux entreprises privées qu’aux entreprises appliquant des conventions collectives. <br>
-
-                                        	Assurer la gestion des prévisions périodiques et/ou annuelles <br>
-                                        	Intégration automatique des réalisations à partir des modules de gestion des ventes et des achats <br>
-                                        	Répartition	des budgets par période, par organisme ou par rubrique/sous- rubrique <br>
-                                        	Gestion de plusieurs exercices sur la même base de données <br>
-                                        	Fonction d’archivage des données <br>
-                                        	Edition paramétrable des fiches de suivi budgétaires.<br>
-
+                                  {{ 'translate.link106'|trans }}
+                                        
                                   
 
 
@@ -97,24 +78,13 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">3-Prise en considération des opérations sur le budget
+                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link107'|trans }}
 
                                         </h3>
 
                                     </div>
-                                  
-                                        MS-Budget offre une gestion complète et fiable de votre budget. <br> Le cycle de vie de chaque opération
-                                        sur le budget passe de la création à la validation, l’annulation ou le rejet du responsable. Chaque
-                                        intervention est archivée, rien n’est supprimé <br>
-                                        	Virement entre les rubriques/sous-rubriques de budget <br>
-                                        	Prise en considération des projets de budget <br>
-                                        	Gestion des crédits budgétaires <br>
-                                        	Gestion des prévisions de dépenses et de recette <br>
-                                        	Gestion des engagements : avec la possibilité de paramétrer le modèle de l’engagement <br>
-                                        	Saisie des budgets par exercice <br>
-                                        	Prise en considération de plusieurs exercices sur la même base de données <br>
-                                        	Suivi des marchés <br>
-                                        	Suivi des factures.<br>
+                                  {{ 'translate.link108'|trans }}
+                                    
 
 
                                  
@@ -123,19 +93,11 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">4-Analyse multidirectionnelles & éditions paramétrables  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link109'|trans }} </h3>
 
                                     </div>
-                                  
-                                        	Analyse des écarts entre les prévisions et le budget disponible : global, par rubrique, par sous-rubrique, par unité organisationnelle …<br>
-                                        	Suivi en temps réel de la consommation des budgets : global, par rubrique, par sous- rubrique, par unité organisationnelle …
-                                        	Rapprochement budgétaire et comptable <br>
-                                        	Edition du détail des dépenses par période <br>
-                                        	Edition du détail des recettes par période <br>
-                                        	Possibilité d’actualisation des prévisions <br>
-                                        	Edition du grand-livre budgétaire <br>
-                                        	Comparaison entre plusieurs exercices <br>
-                                        	Suivi des réalisations.<br>
+                                  {{ 'translate.link110'|trans }}
+                        
 
 
                                  
@@ -145,13 +107,17 @@
                                 <article class="blog-item">
 
                                     <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">5-Interopérabilité  </h3>
+                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link111'|trans }}</h3>
 
                                     </div>
-                                   
-                                        MS-Budget s’interface automatiquement avec les différents modules de MS-ERP, tels que le module
-                                        de gestion des ventes, le module de gestion des approvisionnements et des achats, le module de gestion comptable (analytique, tiers, …).
+                                   {{ 'translate.link112'|trans }}
+<h3 class="text-capitalize" style="color:#483D8B"> Pour telecharger la version pdf du Budget </h3> <br>
 
+Cliquer sur ce lien <br><br>
+ 
+ 
+<p><a href="{{asset('templates/images/Budget.pdf')}}">telecharger la version pdf du Budget</a></p>                                      
+                                        
 
                                   
 
@@ -165,134 +131,141 @@
                     </div>
                 </section>
 
-                <footer>
-                    <div class="container">
-                        <div class="row">
+       <footer>
+                <div class="container">
+                    <div class="row">
 
-                            <!-- useful links -->
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                <h4>Liens</h4>
-                                <ul class="row footer-links">
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
-                                        <li><a href="{{path('acceuil')}}">Acceuil</a></li>
-                                        <li><a href="{{path('about')}}">About</a></li>
-                                        <li><a href="{{path('service')}}">Service</a></li>
-                                        <li><a href="{{path('MS-Compta')}}">Nos produits</a></li>
-                                        <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                                        <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                                        <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
-                                    </div>
-
-
-                                </ul>
-                            </div>
-                                    
-                                  <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>Logiciel Erp</h4>
+                        <!-- useful links -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link155'|trans }}</h4>
                             <ul class="row footer-links">
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">Comptoir -Gestion Commerciale</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">MS-Achat</a></li>
-                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">MS-Paie & RH</a></li>
-                                    <li><a href="{{path('MS-VE')}}">MS-Vente</a></li>
-                                    
+                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                    <li><a href="{{path('service')}}">Service</a></li>
+                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
                                 </div>
 
                               
                             </ul>
-                        </div>            
-                                    
-
-                            <!-- recent news -->
-
-
-                            <!-- news-letter -->
-
-
-                            <!-- about avada agency -->
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                                <h4>MicroSystem Solutions </h4>
-
-
-
-                                <div class="footer-address">
-                                    <p>
-                                        Adresse <br>
-                                        59,Avenue de france,Entrée n 2,App.N6,2013,Ben Arous
-                                        <br>
-
-
-
-                                </div>
-
-
-                            </div> <!-- /.footer-widget -->
-
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-
-
-
-
-                                <div class="footer-address">
-
-                                    <p> Email <br>
-                                        microsysteme@gnet.tn
-                                    </p>
-
-
-                                </div>
-
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-
-
-                                <div class="footer-address">
-
-
-                                    <p> Tél 
-                                        <br>  
-                                        (+216) 79 391 087 <br>
-                                        (+216) 79 391 088 
-                                    </p>
-                                    <p>   Fax
-
-                                        +216 79 391 056
-
-                                    </p>
-
-                                </div>
-
-
-                            </div> 
                         </div>
+                                
+                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>{{ 'translate.link156'|trans }}</h4>
+                            <ul class="row footer-links">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+                                   
+                                </div>
 
-                        <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                            <div class="container">
+                              
+                            </ul>
+                        </div>        
+                                
 
-                                <div class="navbar-header">
+                        <!-- recent news -->
+             
 
-                                    <!-- navbar logo -->
-                                    <div class="navbar-brand">
+                        <!-- news-letter -->
+                  
 
-                                        <a href="#">
-                                            @2018 All Rights Reserved. Designed by MicroSystem Solutions
-                                        </a>
-                                    </div>
-                                    <!-- navbar logo -->
+                        <!-- about avada agency -->
+                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                            <h4>MicroSystem Solutions </h4>
 
-                                </div><!-- /.navbar-header -->
+                         
 
-                                <!-- nav links -->
+                            <div class="footer-address">
+                                <p>
+                                    {{ 'translate.link162'|trans }} <br>
+                                    APP 9 Residence el Hakim Av de paris Ben Arous
+                                    <br>
+                             
+                           
+                                
+                            </div>
+                          
+                       
+                        </div> <!-- /.footer-widget -->
+                         
+                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
 
-                            </div><!-- /.container -->
-                        </nav>
+                         
 
+                            <div class="footer-address">
+                              
+                                <p> Email <br>
+                                    microsysteme@gnet.tn
+                                </p>
+                            
+                                
+                            </div>
+                          
+                       
+                        </div>
+                        
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                           
+
+                         
+
+                            <div class="footer-address">
+                              
+                               
+                                <p> Tél 
+                                    <br>  
+                                    (+216) 79 391 087 <br>
+                                    (+216) 79 391 088 
+                                </p>
+                                <p>   Fax
+                                    
+                                    +216 79 391 056
+                                    
+                             
+                                </p>
+                                
+                            </div>
+                          
+                       
+                        </div> 
+                        
+                        
                     </div>
-                </footer>
+                    
+                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                       <div class="container">
+                    
+                        <div class="navbar-header">
+                        
+                            <!-- navbar logo -->
+                            <div class="navbar-brand">
+                           
+                            <a href="#">
+                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                            </a>
+                        </div>
+                        <!-- navbar logo -->
+
+                    </div><!-- /.navbar-header -->
+
+                    <!-- nav links -->
+                     
+                </div><!-- /.container -->
+            </nav>
+                                
+                </div>
+            </footer>
 
 
             </div> <!-- end of /#home-page -->

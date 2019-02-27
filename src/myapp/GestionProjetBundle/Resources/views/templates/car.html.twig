@@ -1,9 +1,23 @@
 {% extends '::base.html.twig'%}
 
 {% block body %}
+    
+  <br>
+   <br>   
+    
 
-
-    <html class="no-js"> <!--<![endif]-->
+<div id="choisir_langue">Choisir la langue :
+            <a href="{{ path('MS-Cars', {'_locale' : 'fr'}) }}">FR</a> |
+            <a href="{{ path('MS-Cars', {'_locale' : 'en'}) }}">EN</a>
+        </div>  
+        
+ <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!-->         
+    
+<html class="no-js"> <!--<![endif]-->
         <head>
 
             <title>MicroSystem Solutions</title>
@@ -14,83 +28,124 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-
         </head>
-        
- <div id="choisir_langue">Choisir la langue :
-    <a href="{{ path('MS-Cars', {'_locale' : 'fr'}) }}">FR</a> |
-    <a href="{{ path('MS-Cars', {'_locale' : 'en'}) }}">EN</a>
-</div>         
+
+
+               
 
         <body>
             <div id="multiple-blog-page">
+<nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
+                    <div class="container">
 
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <!-- navbar logo -->
+
+                            <!-- navbar logo -->
+
+                        </div><!-- /.navbar-header -->
+
+                        <!-- nav links -->
+
+
+                    </div><!-- /.container -->
+                </nav>
+                <!-- site-navigation end -->
+
+
+
+                <!-- header begin -->
+
+
+                <img src="{{asset('templates/images/single_blog-bg.jpg')}}" class="img-responsive center-block">
 
                 <!-- site-navigation start -->  
 
                 <!-- site-navigation end -->
                 <br>
-       <div class="row carousel-holder">
+                <div class="container">
 
-                    <div class="col-md-12">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="{{asset('templates/images/1.png')}}" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/2.png')}}" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/3.png')}}" alt="">
-                                </div>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarouse2" data-slide-to="3"></li>
 
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/4.png')}}" alt="">
-                                </div>
+                        </ol>
 
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/5.png')}}" alt="">
-                                </div>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
 
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/6.png')}}" alt="">
-                                </div>
+                            <div class="item active">
+                                <img src="{{asset('templates/images/1.png')}}" alt="Los Angeles" style="height: 100%; width:100%;  margin-left: auto;
+                                     margin-right: auto; display: block;">
+                            </div>
 
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/7.png')}}" alt="">
-                                </div>
-
-                                <div class="item">
-                                    <img class="slide-image" src="{{asset('templates/images/8.png')}}" alt="">
-                                </div>
-
+                            <div class="item">
+                                <img src="{{asset('templates/images/2.png')}}" alt="Chicago" style="height: 100%; width:100%;  margin-left: auto;
+                                     margin-right: auto; display: block;">
 
                             </div>
-                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
+
+                            <div class="item">
+                                <img src="{{asset('templates/images/3.png')}}" alt="New York" style="height: 100%; width:100%;  margin-left: auto;
+                                     margin-right: auto; display: block;">
+
+                            </div>
+
+                            <div class="item">
+                                <img src="{{asset('templates/images/4.png')}}" alt="New York" style="height: 100%; width:100%;  margin-left: auto;
+                                     margin-right: auto; display: block;">
+
+                            </div>
+
+
+
+                            <div class="item">
+                                <img src="{{asset('templates/images/8.png')}}" alt="New York" style="height: 100%; width:100%;  margin-left: auto;
+                                     margin-right: auto; display: block;">
+
+                            </div>
+
+
+
                         </div>
+
+
+
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+
                     </div>
+                </div>   
+                <h3 style="color:#483D8B" ><center> Vidéo Parc Auto </center></h3>
+                <center> 
+                    <video controls preload="metadata" loop poster ="level-soleil.png" width="700">
+                        <source src="{{asset('templates/videos/parcauto.mp4')}}"> 
+                        <source src ="{{asset('templates/videos/parcauto.ogg')}}">
 
-                </div>
-                <h3 style="color:#483D8B"> Vidéo Parc Auto </h3>
-               <center> 
-                <video controls preload="metadata" loop poster ="level-soleil.png">
-                      <source src="{{asset('templates/videos/parcauto.mp4')}}"> 
-                    <source src ="{{asset('templates/videos/parcauto.ogg')}}">
+                    </video>
 
-                </video>
-
-              </center> 
+                </center> 
 
 
                 <section class="blog-content">
@@ -104,9 +159,9 @@
                                         <h3 class="text-capitalize" style="color:#483D8B">MS-Cars</h3>
                                         <h4 class="text-capitalize" style="color:#0000FF">{{ 'translate.link32'|trans }}</h4>
                                     </div>
-                                    
-                                        {{ 'translate.link55'|trans }}<br>
-                                   
+
+                                    {{ 'translate.link55'|trans }}<br>
+
 
 
                                 </article> <!-- /.blog-item -->
@@ -117,12 +172,12 @@
                                         <h3 style="color:#0000FF">{{ 'translate.link56'|trans }} </h3>
 
                                     </div>
-                                    
-                                     {{ 'translate.link57'|trans }}
+
+                                    {{ 'translate.link57'|trans }}
 
                                     <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link58'|trans }} <br> </h3>
 
-                                 {{ 'translate.link59'|trans }}
+                                    {{ 'translate.link59'|trans }}
 
 
                                     </p>
@@ -161,141 +216,141 @@
                 </section>
 
 
-          <footer>
-                <div class="container">
-                    <div class="row">
+                <footer>
+                    <div class="container">
+                        <div class="row">
 
-                        <!-- useful links -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>{{ 'translate.link155'|trans }}</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
-                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
-                                    <li><a href="{{path('service')}}">Service</a></li>
-                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
-                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
-                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                            <!-- useful links -->
+                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                <h4>{{ 'translate.link155'|trans }}</h4>
+                                <ul class="row footer-links">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                        <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                        <li><a href="{{path('service')}}">Service</a></li>
+                                        <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                        <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                        <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                        <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                        <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                        <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                    </div>
+
+
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                <h4>{{ 'translate.link156'|trans }}</h4>
+                                <ul class="row footer-links">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                        <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                        <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                        <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                        <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                        <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+
+                                    </div>
+
+
+                                </ul>
+                            </div>        
+
+
+                            <!-- recent news -->
+
+
+                            <!-- news-letter -->
+
+
+                            <!-- about avada agency -->
+                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                <h4>MicroSystem Solutions </h4>
+
+
+
+                                <div class="footer-address">
+                                    <p>
+                                        {{ 'translate.link162'|trans }} <br>
+                                        APP 9 Residence el Hakim Av de paris Ben Arous
+                                        <br>
+
+
+
                                 </div>
 
-                              
-                            </ul>
-                        </div>
-                                
-                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>{{ 'translate.link156'|trans }}</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
-                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
-                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
-                                   
+
+                            </div> <!-- /.footer-widget -->
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                                <div class="footer-address">
+
+                                    <p> Email <br>
+                                        microsysteme@gnet.tn
+                                    </p>
+
+
                                 </div>
 
-                              
-                            </ul>
-                        </div>        
-                                
 
-                        <!-- recent news -->
-             
-
-                        <!-- news-letter -->
-                  
-
-                        <!-- about avada agency -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>MicroSystem Solutions </h4>
-
-                         
-
-                            <div class="footer-address">
-                                <p>
-                                    {{ 'translate.link162'|trans }} <br>
-                                    APP 9 Residence el Hakim Av de paris Ben Arous
-                                    <br>
-                             
-                           
-                                
                             </div>
-                          
-                       
-                        </div> <!-- /.footer-widget -->
-                         
-                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
 
-                         
+                            <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
 
-                            <div class="footer-address">
-                              
-                                <p> Email <br>
-                                    microsysteme@gnet.tn
-                                </p>
-                            
-                                
-                            </div>
-                          
-                       
+
+
+
+                                <div class="footer-address">
+
+
+                                    <p> Tél 
+                                        <br>  
+                                        (+216) 79 391 087 <br>
+                                        (+216) 79 391 088 
+                                    </p>
+                                    <p>   Fax
+
+                                        +216 79 391 056
+
+
+                                    </p>
+
+                                </div>
+
+
+                            </div> 
+
+
                         </div>
-                        
-                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
 
-                         
+                        <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                            <div class="container">
 
-                            <div class="footer-address">
-                              
-                               
-                                <p> Tél 
-                                    <br>  
-                                    (+216) 79 391 087 <br>
-                                    (+216) 79 391 088 
-                                </p>
-                                <p>   Fax
-                                    
-                                    +216 79 391 056
-                                    
-                             
-                                </p>
-                                
-                            </div>
-                          
-                       
-                        </div> 
-                        
-                        
+                                <div class="navbar-header">
+
+                                    <!-- navbar logo -->
+                                    <div class="navbar-brand">
+
+                                        <a href="#">
+                                            @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                                        </a>
+                                    </div>
+                                    <!-- navbar logo -->
+
+                                </div><!-- /.navbar-header -->
+
+                                <!-- nav links -->
+
+                            </div><!-- /.container -->
+                        </nav>
+
                     </div>
-                    
-                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                       <div class="container">
-                    
-                        <div class="navbar-header">
-                        
-                            <!-- navbar logo -->
-                            <div class="navbar-brand">
-                           
-                            <a href="#">
-                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
-                            </a>
-                        </div>
-                        <!-- navbar logo -->
-
-                    </div><!-- /.navbar-header -->
-
-                    <!-- nav links -->
-                     
-                </div><!-- /.container -->
-            </nav>
-                                
-                </div>
-            </footer>
+                </footer>
 
 
             </div> <!-- end of /#home-page -->

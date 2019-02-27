@@ -96,7 +96,7 @@ class DefaultController extends Controller
                     ->setBody($message);
                 $this->get('mailer')->send($mess);
 
-                return $this->redirect($this->generateUrl('myapplication_contact'));
+              
             }
         }
 
@@ -109,9 +109,36 @@ class DefaultController extends Controller
         return $this->render('GestionProjetBundle:templates:reference.html.twig');
     }  
     
-    
+         public function contact1Action(Request $request)
+    {
+            
+       $contact2 = new Contact();
+        $form = $this->createForm(ContactType::class, $contact2);
+        if ($request->isMethod('POST')) {
+            $form->handleRequest($request);
+            $subject = $form->get('objet')->getData();
+            $email = $form->get('email')->getData();
+            $message = $form->get('sujet')->getData();
+            if ($form->isValid()) {
 
+                $em = $this->getDoctrine()->getManager();
+                $em->persist($contact2);
+                $em->flush();
+                $mess = \Swift_Message::newInstance()
+                    ->setSubject($subject)
+                    ->setFrom($this->getParameter('mailer_user'))
+                    ->setTo('microsystemeinformations@gmail.com')
+                    ->setReplyTo($email)
+                    ->setBody($message);
+                $this->get('mailer')->send($mess);
+
+              
+            }
+        }
+  return $this->render('GestionProjetBundle:Default:contact1.html.twig', array('form' => $form->createView()));
+    }      
    
+    }
 
-
-}
+    
+    

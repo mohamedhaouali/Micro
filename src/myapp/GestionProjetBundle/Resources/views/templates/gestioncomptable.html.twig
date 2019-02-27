@@ -1,15 +1,28 @@
 {% extends '::base.html.twig'%}
 
 {% block body %}
+    
+     <br>
+    <br>
 
+    <div id="choisir_langue">Choisir la langue :
+        <a href="{{ path('GestionComptable', {'_locale' : 'fr'}) }}">FR</a> |
+        <a href="{{ path('GestionComptable', {'_locale' : 'en'}) }}">EN</a>
+    </div> 
 
+   
+    
     <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!-->     
 
 
     <html class="no-js"> <!--<![endif]-->
         <head>
 
-            <title>MicroSystem Solutions</title>
+            <title>MicroSysteme Solutions</title>
 
             <!-- meta -->
             <meta charset="utf-8">
@@ -18,281 +31,314 @@
 
 
         </head>
-<div id="choisir_langue">Choisir la langue :
-    <a href="{{ path('GestionComptable', {'_locale' : 'fr'}) }}">FR</a> |
-    <a href="{{ path('GestionComptable', {'_locale' : 'en'}) }}">EN</a>
-</div> 
+
         <body>
             <div id="multiple-blog-page">
-            <h3 style="color:#0000FF"> Vidéo MS-COMPTA </h3>  
 
-               <center> <video controls preload="metadata" loop poster ="level-soleil.png">
-                    <source src="{{asset('templates/videos/vf_compta_2018.mp4')}}">
-                  </center>  
-
-                </video>
-
-
-                <section class="blog-content">
+                <!-- site-navigation start -->  
+                <nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
                     <div class="container">
-                        <div class="row">
-                            <main class="col-md-9 col-md-push-3" style="display: block;">
 
-
-                                <article class="blog-item">
-
-                                    <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#483D8B">
-                                            {{ 'translate.link72'|trans }}
-                                        
-
-                                        </h3> 
-                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link73'|trans }}</h3>
-
-                                    </div>
-                                   {{ 'translate.link74'|trans }}
-                                        
-                                   
-                                </article> <!-- /.blog-item -->
-
-                                <article class="blog-item">
-
-                                    <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link75'|trans }} </h3>
-
-                                    </div>
-                                {{ 'translate.link76'|trans }}
-                                   
-                                       
-
-
-                                </article> <!-- /.blog-item -->
-
-
-                                <article class="blog-item">
-
-                                    <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link77'|trans }}  </h3>
-
-                                    </div>
-                                   {{ 'translate.link78'|trans }}
-                                
-
-                                   
-
-
-                                </article> <!-- /.blog-item -->
-
-                                <article class="blog-item">
-
-                                    <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link79'|trans }}
-
-                                        </h3>
-
-                                    </div>
-                                   
-{{ 'translate.link80'|trans }}
-                                    
-                                    
-
-
-                                  
-
-                                </article> <!-- /.blog-item -->
-                                <article class="blog-item">
-
-                                    <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link81'|trans }} </h3>
-
-                                    </div>
-                                   {{ 'translate.link82'|trans }}
-                                       
-
-                                   
-
-                                </article> <!-- /.blog-item -->              
-                                <article class="blog-item">
-
-                                    <div class="blog-heading">
-                                        <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link83'|trans }} </h3>
-
-                                    </div>
-                                  {{ 'translate.link84'|trans }}
-<h3 class="text-capitalize" style="color:#483D8B"> Pour telecharger la version pdf du Compta </h3> <br>
-
-Cliquer sur ce lien <br><br>
- 
- 
-<p><a href="{{asset('templates/images/Compta.pdf')}}">telecharger la version pdf du Compta</a></p>                                          
-
-                                </article> <!-- /.blog-item --
-                                <div class="row">
-                                    <div class= "col-md-6 col-md-offset-3 text-center">
-                                        <ul class="pagination">
-                                            <li><a href="#"> < </a></li>
-                                            <li class="active">
-                                                <a href="#">1 <span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                            <li><a href="#">5</a></li>
-                                            <li><a href="#"> > </a></li>
-                                        </ul> <!-- /.pagination -->
-                        </div>
-                    </div>
-                    </main>
-
-
-                    <!-- end sidebar -->
-            </div>
-        </div>
-    </section>
-
-    <footer>
-                <div class="container">
-                    <div class="row">
-
-                        <!-- useful links -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>{{ 'translate.link155'|trans }}</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
-                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
-                                    <li><a href="{{path('service')}}">Service</a></li>
-                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
-                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
-                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
-                                </div>
-
-                              
-                            </ul>
-                        </div>
-                                
-                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>{{ 'translate.link156'|trans }}</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
-                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
-                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
-                                   
-                                </div>
-
-                              
-                            </ul>
-                        </div>        
-                                
-
-                        <!-- recent news -->
-             
-
-                        <!-- news-letter -->
-                  
-
-                        <!-- about avada agency -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>MicroSystem Solutions </h4>
-
-                         
-
-                            <div class="footer-address">
-                                <p>
-                                    {{ 'translate.link162'|trans }} <br>
-                                    APP 9 Residence el Hakim Av de paris Ben Arous
-                                    <br>
-                             
-                           
-                                
-                            </div>
-                          
-                       
-                        </div> <!-- /.footer-widget -->
-                         
-                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
-
-                         
-
-                            <div class="footer-address">
-                              
-                                <p> Email <br>
-                                    microsysteme@gnet.tn
-                                </p>
-                            
-                                
-                            </div>
-                          
-                       
-                        </div>
-                        
-                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
-
-                         
-
-                            <div class="footer-address">
-                              
-                               
-                                <p> Tél 
-                                    <br>  
-                                    (+216) 79 391 087 <br>
-                                    (+216) 79 391 088 
-                                </p>
-                                <p>   Fax
-                                    
-                                    +216 79 391 056
-                                    
-                             
-                                </p>
-                                
-                            </div>
-                          
-                       
-                        </div> 
-                        
-                        
-                    </div>
-                    
-                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                       <div class="container">
-                    
                         <div class="navbar-header">
-                        
+
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
                             <!-- navbar logo -->
-                            <div class="navbar-brand">
-                           
-                            <a href="#">
-                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
-                            </a>
+
+                            <!-- navbar logo -->
+
+                        </div><!-- /.navbar-header -->
+
+                        <!-- nav links -->
+
+
+                    </div><!-- /.container -->
+                </nav>
+                <!-- site-navigation end -->
+
+
+
+                <!-- header begin -->
+
+
+                <img src="{{asset('templates/images/multiple_blog-bg.jpg')}}" class="img-responsive center-block">            
+
+
+
+                <h3 style="color:#0000FF"><center> Vidéo MS-COMPTA </center></h3>  
+
+                <center> <video controls preload="metadata" loop poster ="level-soleil.png">
+                        <source src="{{asset('templates/videos/vf_compta_2018.mp4')}}">
+                        </center>  
+
+                    </video>
+
+
+                    <section class="blog-content">
+                        <div class="container">
+                            <div class="row">
+                                <main class="col-md-9 col-md-push-3" style="display: block;">
+
+
+                                    <article class="blog-item">
+
+                                        <div class="blog-heading">
+                                            <h3 class="text-capitalize" style="color:#483D8B">
+                                                {{ 'translate.link72'|trans }}
+
+
+                                            </h3> 
+                                            <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link73'|trans }}</h3>
+
+                                        </div>
+                                        {{ 'translate.link74'|trans }}
+
+
+                                    </article> <!-- /.blog-item -->
+
+                                    <article class="blog-item">
+
+                                        <div class="blog-heading">
+                                            <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link75'|trans }} </h3>
+
+                                        </div>
+                                        {{ 'translate.link76'|trans }}
+
+
+
+
+                                    </article> <!-- /.blog-item -->
+
+
+                                    <article class="blog-item">
+
+                                        <div class="blog-heading">
+                                            <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link77'|trans }}  </h3>
+
+                                        </div>
+                                        {{ 'translate.link78'|trans }}
+
+
+
+
+
+                                    </article> <!-- /.blog-item -->
+
+                                    <article class="blog-item">
+
+                                        <div class="blog-heading">
+                                            <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link79'|trans }}
+
+                                            </h3>
+
+                                        </div>
+
+                                        {{ 'translate.link80'|trans }}
+
+
+
+
+
+
+                                    </article> <!-- /.blog-item -->
+                                    <article class="blog-item">
+
+                                        <div class="blog-heading">
+                                            <h3 class="text-capitalize" style="color:#0000FF">{{ 'translate.link81'|trans }} </h3>
+
+                                        </div>
+                                        {{ 'translate.link82'|trans }}
+
+
+
+
+                                    </article> <!-- /.blog-item -->              
+                                    <article class="blog-item">
+
+                                        <div class="blog-heading">
+                                            <h3 class="text-capitalize" style="color:#0000FF"> {{ 'translate.link83'|trans }} </h3>
+
+                                        </div>
+                                        {{ 'translate.link84'|trans }}
+                                        <h3 class="text-capitalize" style="color:#483D8B"> Pour telecharger la version pdf du Compta </h3> <br>
+
+                                        Cliquer sur ce lien <br><br>
+
+
+                                        <p><a href="{{asset('templates/images/Compta.pdf')}}">Telecharger la version pdf du Compta</a></p>                                          
+
+                                    </article> <!-- /.blog-item --
+                                    <div class="row">
+                                        <div class= "col-md-6 col-md-offset-3 text-center">
+                                            <ul class="pagination">
+                                                <li><a href="#"> < </a></li>
+                                                <li class="active">
+                                                    <a href="#">1 <span class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a href="#">4</a></li>
+                                                <li><a href="#">5</a></li>
+                                                <li><a href="#"> > </a></li>
+                                            </ul> <!-- /.pagination -->
+                            </div>
                         </div>
-                        <!-- navbar logo -->
-
-                    </div><!-- /.navbar-header -->
-
-                    <!-- nav links -->
-                     
-                </div><!-- /.container -->
-            </nav>
-                                
-                </div>
-            </footer>
+                        </main>
 
 
-</div> <!-- end of /#home-page -->
+                        <!-- end sidebar -->
+                        </div>
+                        </div>
+                    </section>
 
-<!--  Necessary scripts  -->
+                    <footer>
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- useful links -->
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                    <h4>{{ 'translate.link155'|trans }}</h4>
+                                    <ul class="row footer-links">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                            <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                            <li><a href="{{path('service')}}">Service</a></li>
+                                            <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                            <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                            <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                            <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                            <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                            <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                        </div>
 
 
-</body>
-</html>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                    <h4>{{ 'translate.link156'|trans }}</h4>
+                                    <ul class="row footer-links">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                            <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                            <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                            <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                            <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                            <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+
+                                        </div>
+
+
+                                    </ul>
+                                </div>        
+
+
+                                <!-- recent news -->
+
+
+                                <!-- news-letter -->
+
+
+                                <!-- about avada agency -->
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                    <h4>MicroSystem Solutions </h4>
+
+
+
+                                    <div class="footer-address">
+                                        <p>
+                                            {{ 'translate.link162'|trans }} <br>
+                                            APP 9 Residence el Hakim Av de paris Ben Arous
+                                            <br>
+
+
+
+                                    </div>
+
+
+                                </div> <!-- /.footer-widget -->
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                                    <div class="footer-address">
+
+                                        <p> Email <br>
+                                            microsysteme@gnet.tn
+                                        </p>
+
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                                    <div class="footer-address">
+
+
+                                        <p> Tél 
+                                            <br>  
+                                            (+216) 79 391 087 <br>
+                                            (+216) 79 391 088 
+                                        </p>
+                                        <p>   Fax
+
+                                            +216 79 391 056
+
+
+                                        </p>
+
+                                    </div>
+
+
+                                </div> 
+
+
+                            </div>
+
+                            <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                                <div class="container">
+
+                                    <div class="navbar-header">
+
+                                        <!-- navbar logo -->
+                                        <div class="navbar-brand">
+
+                                            <a href="#">
+                                                @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                                            </a>
+                                        </div>
+                                        <!-- navbar logo -->
+
+                                    </div><!-- /.navbar-header -->
+
+                                    <!-- nav links -->
+
+                                </div><!-- /.container -->
+                            </nav>
+
+                        </div>
+                    </footer>
+
+
+            </div> <!-- end of /#home-page -->
+
+            <!--  Necessary scripts  -->
+
+
+        </body>
+    </html>
 
 {%endblock  %}

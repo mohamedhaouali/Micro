@@ -95,4 +95,10 @@ Translation:
     path:     /{_locale}/translate
     defaults: { _controller: GestionProjetBundle:Translate:show } 
     
+contact1: 
+    path:     /{_locale}/contact1
+    defaults: { _controller: GestionProjetBundle:Default:contact1 }
+    requirements:
+        _locale: en|fr # les locales disponibles, séparées par des pipes « | »
+    
    

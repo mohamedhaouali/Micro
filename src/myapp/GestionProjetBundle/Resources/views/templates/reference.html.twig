@@ -2,17 +2,76 @@
 
 {% block body %}
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">  
+   <br>
+    <br>  
 
-    </head> 
-<div id="choisir_langue">Choisir la langue :
-    <a href="{{ path('Reference', {'_locale' : 'fr'}) }}">FR</a> |
-    <a href="{{ path('Reference', {'_locale' : 'en'}) }}">EN</a>
-</div> 
+    <div id="choisir_langue">Choisir la langue :
+        <a href="{{ path('Reference', {'_locale' : 'fr'}) }}">FR</a> |
+        <a href="{{ path('Reference', {'_locale' : 'en'}) }}">EN</a>
+    </div> 
+    
+   
+    
+    <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!--> 
+
+    <html class="no-js"> <!--<![endif]-->
+        <head>
+
+            <title>MicroSysteme Solutions</title>
+
+            <!-- meta -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+            
+
+
+
+        </head>
+
+        <body> 
+    
+    
     <div id="about-page">
 
+  <!-- site-navigation start -->  
+                <nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
+                    <div class="container">
 
+                        <div class="navbar-header">
+
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <!-- navbar logo -->
+
+                            <!-- navbar logo -->
+
+                        </div><!-- /.navbar-header -->
+
+                        <!-- nav links -->
+
+
+                    </div><!-- /.container -->
+                </nav>
+                <!-- site-navigation end -->
+
+
+
+                <!-- header begin -->
+
+
+                <img src="{{asset('templates/images/portfolio-bg.jpg')}}" class="img-responsive center-block">
         <!-- site-navigation start -->  
 
         <!-- site-navigation end -->
@@ -34,11 +93,11 @@
 
 
                                 <h3 style="text-align:left">{{ 'translate.link27'|trans }} : Fnarc</h3>
-                               
-                                <p style="text-align:center">  <img src="{{asset('templates/images/LogoFNARC.png')}}" class="img-responsive center-block" alt="intro"></p>
-                               
 
-                               
+                                <p style="text-align:center">  <img src="{{asset('templates/images/LogoFNARC.png')}}" class="img-responsive center-block" alt="intro"></p>
+
+
+
 
 
                                 {{ 'translate.link28'|trans }}  <p><a href="http://microsysteme.tn/haras">Ms-Haras</a></p>
@@ -66,7 +125,7 @@
 
                                 <dd>
 
-                                     
+
 
 
                                     {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/car">Ms-Cars</a></p> <br>
@@ -96,10 +155,10 @@
                                 <dd>
 
 
-                                
 
 
-                                   {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/car">Ms-Cars</a></p> <br>
+
+                                    {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/car">Ms-Cars</a></p> <br>
 
 
 
@@ -130,7 +189,7 @@
 
 
 
-                                         {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
+                                    {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
 
                                     <p><a href="http://microsysteme.tn/gestioncomptable">MS-Comptabilité</a></p> <br>
 
@@ -162,7 +221,7 @@
 
 
 
-                                        {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
+                                    {{ 'translate.link28'|trans }} <p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
 
                                     <p><a href="http://microsysteme.tn/gestioncomptable">MS-Comptabilité</a></p> <br>
 
@@ -195,7 +254,7 @@
 
 
 
-                                         {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
+                                    {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/budget">MS-Budget</a></p> <br>
 
                                     <p><a href="http://microsysteme.tn/gestioncomptable">MS-Comptabilité</a></p> <br>
 
@@ -231,7 +290,7 @@
 
 
 
-                                         {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/comptoir">Comptoir -Gestion Commerciale</a></p> <br>
+                                    {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/comptoir">Comptoir -Gestion Commerciale</a></p> <br>
 
 
 
@@ -259,7 +318,7 @@
 
 
 
-                                        {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/rh">MS-Paie & RH</a></p> <br>
+                                    {{ 'translate.link28'|trans }}<p><a href="http://microsysteme.tn/rh">MS-Paie & RH</a></p> <br>
 
 
                             </dl>       
@@ -285,7 +344,7 @@
 
 
 
-                                         {{ 'translate.link28'|trans }}
+                                        {{ 'translate.link28'|trans }}
 
 
 
@@ -446,14 +505,14 @@
                         </article>                 
                         <article><br>
 
-                      
+
                             </div>
-                                
-                    Pour plus d'informations ,veuillez rediriger vers la page devis   
-                         <p><a href="http://microsysteme.tn/devi/fr/new"class="btn btn-info" ></span>Devis</a></p> <br>
-                         
-                         
-                      
+
+                            Pour plus d'informations ,veuillez rediriger vers la page devis   
+                            <p><a href="http://microsysteme.tn/devi/fr/new"class="btn btn-info" ></span>Devis</a></p> <br>
+
+
+
 
                             </div>
                             </div>
@@ -463,141 +522,141 @@
 
 
 
-                  <footer>
-                <div class="container">
-                    <div class="row">
+                            <footer>
+                                <div class="container">
+                                    <div class="row">
 
-                        <!-- useful links -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>{{ 'translate.link155'|trans }}</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
-                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
-                                    <li><a href="{{path('service')}}">Service</a></li>
-                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
-                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
-                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
-                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
-                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
-                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                        <!-- useful links -->
+                                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                            <h4>{{ 'translate.link155'|trans }}</h4>
+                                            <ul class="row footer-links">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <li><a href="{{path('acceuil')}}">{{ 'translate.link145'|trans }}</a></li>
+                                                    <li><a href="{{path('about')}}">{{ 'translate.link146'|trans }}</a></li>
+                                                    <li><a href="{{path('service')}}">Service</a></li>
+                                                    <li><a href="{{path('Reference')}}">Réferénce</a></li>
+                                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link147'|trans }}</a></li>  
+                                                    <li><a href="{{path('MS-Cars')}}">MS-Cars</a></li>
+                                                    <li><a href="{{path('MS-Haras')}}">MS-Haras</a><li>
+                                                    <li><a href="{{path('devi_new')}}">{{ 'translate.link148'|trans }}</a><li>    
+                                                    <li><a href="{{path('myapplication_contact')}}">Contact</a></li>
+                                                </div>
+
+
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                            <h4>{{ 'translate.link156'|trans }}</h4>
+                                            <ul class="row footer-links">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
+                                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
+                                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
+                                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
+                                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
+                                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
+
+                                                </div>
+
+
+                                            </ul>
+                                        </div>        
+
+
+                                        <!-- recent news -->
+
+
+                                        <!-- news-letter -->
+
+
+                                        <!-- about avada agency -->
+                                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+                                            <h4>MicroSystem Solutions </h4>
+
+
+
+                                            <div class="footer-address">
+                                                <p>
+                                                    {{ 'translate.link162'|trans }} <br>
+                                                    APP 9 Residence el Hakim Av de paris Ben Arous
+                                                    <br>
+
+
+
+                                            </div>
+
+
+                                        </div> <!-- /.footer-widget -->
+
+                                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                                            <div class="footer-address">
+
+                                                <p> Email <br>
+                                                    microsysteme@gnet.tn
+                                                </p>
+
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
+
+
+
+
+                                            <div class="footer-address">
+
+
+                                                <p> Tél 
+                                                    <br>  
+                                                    (+216) 79 391 087 <br>
+                                                    (+216) 79 391 088 
+                                                </p>
+                                                <p>   Fax
+
+                                                    +216 79 391 056
+
+
+                                                </p>
+
+                                            </div>
+
+
+                                        </div> 
+
+
+                                    </div>
+
+                                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
+                                        <div class="container">
+
+                                            <div class="navbar-header">
+
+                                                <!-- navbar logo -->
+                                                <div class="navbar-brand">
+
+                                                    <a href="#">
+                                                        @2018 All Rights Reserved. Designed by MicroSystem Solutions
+                                                    </a>
+                                                </div>
+                                                <!-- navbar logo -->
+
+                                            </div><!-- /.navbar-header -->
+
+                                            <!-- nav links -->
+
+                                        </div><!-- /.container -->
+                                    </nav>
+
                                 </div>
-
-                              
-                            </ul>
-                        </div>
-                                
-                          <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>{{ 'translate.link156'|trans }}</h4>
-                            <ul class="row footer-links">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                    <li><a href="{{path('MS-Compta')}}">{{ 'translate.link149'|trans }}</a></li>
-                                    <li><a href="{{path('MS-Achat')}}">{{ 'translate.link150'|trans }}</a></li>
-                                    <li><a href="{{path('MS-Budget')}}">MS-Budget</a></li>
-                                    <li><a href="{{path('GestionComptable')}}">MS-Compta</a></li>
-                                    <li><a href="{{path('MS-RH')}}">{{ 'translate.link152'|trans }}</a></li>
-                                    <li><a href="{{path('MS-VE')}}">{{ 'translate.link153'|trans }}</a></li>
-                                   
-                                </div>
-
-                              
-                            </ul>
-                        </div>        
-                                
-
-                        <!-- recent news -->
-             
-
-                        <!-- news-letter -->
-                  
-
-                        <!-- about avada agency -->
-                        <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                            <h4>MicroSystem Solutions </h4>
-
-                         
-
-                            <div class="footer-address">
-                                <p>
-                                    {{ 'translate.link162'|trans }} <br>
-                                    APP 9 Residence el Hakim Av de paris Ben Arous
-                                    <br>
-                             
-                           
-                                
-                            </div>
-                          
-                       
-                        </div> <!-- /.footer-widget -->
-                         
-                         <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
-
-                         
-
-                            <div class="footer-address">
-                              
-                                <p> Email <br>
-                                    microsysteme@gnet.tn
-                                </p>
-                            
-                                
-                            </div>
-                          
-                       
-                        </div>
-                        
-                                <div class="col-md-3 col-sm-6 col-xs-6 footer-widget">
-                           
-
-                         
-
-                            <div class="footer-address">
-                              
-                               
-                                <p> Tél 
-                                    <br>  
-                                    (+216) 79 391 087 <br>
-                                    (+216) 79 391 088 
-                                </p>
-                                <p>   Fax
-                                    
-                                    +216 79 391 056
-                                    
-                             
-                                </p>
-                                
-                            </div>
-                          
-                       
-                        </div> 
-                        
-                        
-                    </div>
-                    
-                    <nav class="hidden-xs hidden-sm navbar footer-nav" role="navigation">
-                       <div class="container">
-                    
-                        <div class="navbar-header">
-                        
-                            <!-- navbar logo -->
-                            <div class="navbar-brand">
-                           
-                            <a href="#">
-                             @2018 All Rights Reserved. Designed by MicroSystem Solutions
-                            </a>
-                        </div>
-                        <!-- navbar logo -->
-
-                    </div><!-- /.navbar-header -->
-
-                    <!-- nav links -->
-                     
-                </div><!-- /.container -->
-            </nav>
-                                
-                </div>
-            </footer>
+                            </footer>
 
 
                     </div> <!-- end of /#home-page -->

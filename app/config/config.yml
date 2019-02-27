@@ -67,10 +67,16 @@ doctrine:
 # Swiftmailer Configuration
 swiftmailer:
     transport: '%mailer_transport%'
+    spool: { type: memory }
     host: '%mailer_host%'
     username: '%mailer_user%'
-    password: 'warcommander'
-    spool: { type: memory }
+    password: '%mailer_password%'
+    encryption: ssl
+    auth_mode: login
+    stream_options:
+        ssl:
+            allow_self_signed: true
+            verify_peer: false
 
 knp_paginator:
     page_range: 5                      # default page range used in pagination control

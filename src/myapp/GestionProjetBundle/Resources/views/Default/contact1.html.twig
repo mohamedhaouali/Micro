@@ -1,6 +1,7 @@
 {%  extends '::base.html.twig' %}
 {%  block body %}
     
+    
     <br>
     <br>
     
@@ -97,7 +98,7 @@
                                             </div>
 
                                             <div class="col-md-9 col-xs-9 address-info-desc">
-                                                <h3> Adresse</h3>
+                                                <h3> {{ 'translate.link162'|trans }} </h3>
                                                 <p>
                                                     APP 9 Residence el Hakim Av de paris  <br/>
                                                     Ben Arous
@@ -167,11 +168,9 @@
                             <div class="headline text-center">
                                 <div class="row">
                                     <div class="col-md-6 col-md-offset-3">
-                                        <h2 class="section-title">Dire bonjour! Ne soyez pas timide </h2>
+                                        <h2 class="section-title">  {{ 'translate.link170'|trans }} </h2>
                                         <p class="section-sub-title">
-                                            si vous avez des questions ou des commentaires, ou me contacterai pour me de dire bonjour, 
-
-                                            <br/>s’il vous plaît n’hésitez pas à contacter notre équipe amicale
+                                            {{ 'translate.link171'|trans }}
                                         </p> <!-- /section-sub-title -->
                                     </div>
                                 </div>
@@ -211,8 +210,15 @@
                                         {{ form_errors(form.sujet) }}
                                     </div>
                                 </div>
+                                    
+                                <div class="col-md-1"></div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center" style="margin-top: 40px;">
+                                {{ form_rest(form) }}
+                                <!-- end section -->
+                            </div>         
 
-                                <button type="submit" id="submit" name="submit" class="btn btn-info">Envoyer</button>
+                                <button type="submit" id="submit" name="submit" class="btn btn-info">  {{ 'translate.link168'|trans }} </button>
 
                             </form> <!-- form end -->
                         </section> <!-- /.contact-form -->
